@@ -6,6 +6,7 @@ Here are the articles in this section:
 
 .. toctree::
 
-  ros
+  ros_jets
+  ros_rasp
   nvidia_inference
   jupyterlab

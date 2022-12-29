@@ -1,6 +1,6 @@
-===
-설치
-===
+============
+Installation
+============
 
 
 Here are the articles in this section:
@@ -8,5 +8,6 @@ Here are the articles in this section:
 .. toctree::
   
     summary
-    assembly_process
+    jetson
+    rassp
     jupyterlab_run

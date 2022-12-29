@@ -1,27 +1,31 @@
-===
-개요
-===
+=======
+Summary
+=======
 
-----------------------------------------------
-인공지능과 소프트웨어, 로봇, 콘텐츠를 융합할 수 있는 능력
-----------------------------------------------
-국 영 수 위주의 수업 : 학생은 원할까? 그리고 세상은 원할까?
 
-- 대안으로 IOT 기술 등의 수업이 미래를 만들어주는가?
-- AI 교육이 단순히 ‘IOT 기술’을 가르치는 데 그치고 있음 특히 여학생은 별 흥미가 없음
-- 다양한 학생의 기호에 적응하지 못하고 AI 교육의 지나친 단순성으로 교육 미래 기술 체험 등이 없음
 
-다양한 비즈니스에 대응하기 위해 변신 로봇
----------------------------------
+.. list-table:: 
 
-- 제타봇을 통하여 실질적인 IT 교육을 해보세요!
-- 
-.. image:: ../images/summary_1.webp
-.. image:: ../images/summary_2.webp
+   * - |part_1| 
+     - | Mini White Zetabot
+       | (Raspberry PI 4)
+   * - |part_2| 
+     - | Mini White Zetabot
+       | (Raspberry PI 4)
+   * - |part_3| 
+     - | Mini Red Zetabot
+       | (Jetson Nano)
+   * - |part_4| 
+     - | Mini Yellow Zetabot
+       | (Jetson Nano)
 
-제타봇의 구성 요소
----------------------
 
-.. image:: ../images/summary_3.webp
+.. |part_1| image:: ../../images/mini_white.png 
+.. |part_2| image:: ../../images/mini_black.png 
+.. |part_3| image:: ../../images/mini_red.JPG 
+              :scale: 80 %
+.. |part_4| image:: ../../images/mini_yellow.JPG
+              :scale: 80 %
+.. image:: dsdf
+    :scale:  
 
-① 안테나 ② 배터리 표시 ③ 충전단자 ④ 전원버튼 ⑤ 초음파 센서 ⑥ RP LIDAR ⑦ 범퍼

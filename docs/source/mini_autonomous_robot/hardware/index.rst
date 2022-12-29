@@ -5,9 +5,9 @@ Hardware
 Here are the articles in this section:
 
 .. toctree::
-  :maxdepth: 2
-
+  
   critical_parts
-  sbc
+  sbc_jet
+  sbc_ras
   block
-  option_six_axis
+

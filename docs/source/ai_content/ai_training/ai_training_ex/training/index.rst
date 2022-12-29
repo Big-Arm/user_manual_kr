@@ -49,7 +49,7 @@
 
 -   10줄 예제 실행해보기
 
-.. image:: ../../images/training3.pnterminating the processg
+.. image:: ../../images/training3.png
 
 -   Jetson Nano에서 실행된 모습
 

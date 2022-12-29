@@ -1,17 +1,17 @@
-========================
-JupyterLab 접속 & 예제 실행
-========================
+===================================
+JupterLab Access & Run examples
+===================================
 
-1. Zetabot JupyterLab 접속 및 Topic Publish 예제 실행하기
+1. Access Zetabot JupyterLab and run the Topic Publish example
 
-  * JupyterLab 접속
+  * JupyterLab Access
     
     .. code:: 
       
       http://10.42.0.1:8000
     .. image:: ../images/jup1.png
     
-  * Username / Password 입력
+  * Input Username / Password 
     
     .. code::
      
@@ -19,23 +19,23 @@ JupyterLab 접속 & 예제 실행
      password: 1
     .. image:: ../images/jup2.png
     
-  * JupyterLab 메인 화면
+  * JupyterLab Main Page
     
     .. image:: ../images/jup3.png
   
-  * lecture 폴더로 이동
+  * Moving to lecture folder
   
     .. image:: ../images/jup4.png
     
-  * 통신 폴더로 이동
+  * Moving to Communications folder
   
     .. image:: ../images/jup5.png
   
-  * 01_01_ros_topic_publisher.ipynb 파일 열기
+  * Opening 01_01_ros_topic_publisher.ipynb file
   
     .. image:: ../images/jup6.png
     
-  * 셀 실행시키기
+  * Run the cells
   
     .. code:: 
     
