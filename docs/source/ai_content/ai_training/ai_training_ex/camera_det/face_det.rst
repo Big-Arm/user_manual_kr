@@ -1,9 +1,9 @@
 ================
-Facial Detection
+얼굴 검출하기
 ================
 
 -   3-2. 카메라로 얼굴 객체 검출.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/det_face1.png
@@ -13,28 +13,29 @@ Facial Detection
 
     import subprocess
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    # Facial Recognition with Raspberry Pi Camera
+    # 라즈베리 파이 카메라로 얼굴 인식하기
     detect_command_face = 'bash ~/ai_example/detect.sh cam_face'
     subprocess.call((detect_command_face.split('\n')), shell=True)
 
 
--   Facial Recognition with Raspberry Pi Camera
+-   라즈베리 파이 카메라로 얼굴 인식하기
 
 .. image:: ../../images/det_face3.png
 
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
+
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_face = 'bash ~/ai_example/kill.sh camera'
     subprocess.call((kill_command_face.split('\n')), shell=True)
 
 
--   Terminating the process
+-   프로세스 종료하기

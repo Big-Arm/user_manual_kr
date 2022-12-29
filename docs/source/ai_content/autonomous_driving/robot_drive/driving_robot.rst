@@ -1,10 +1,10 @@
 =================
-Driving the Robot
+로봇 구동
 =================
 
 
 -   01_wheel.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/robot_drive1.png
@@ -19,7 +19,7 @@ Driving the Robot
     import time
     import math
 
--   Import python modules
+-   python 모듈 가져오기
 
 .. code-block:: python
 
@@ -27,8 +27,8 @@ Driving the Robot
     rospy.init_node('zetabot', anonymous=True)
     time.sleep(1)
 
--   Create zetabot Node
--   Create robot_command Topic Publisher
+-   zetabot Node 생성
+-   robot_command Topic Publisher 생성
 
 .. code-block:: python
 
@@ -39,9 +39,9 @@ Driving the Robot
         pub.publish(msg)
 
 
--   Create a move() function
--   Convert {"MoveForward": 1} to Json String
--   Publish the converted message
+-   move() 함수 생성
+-   {"MoveForward": 1}을 Json 문자열로 변환
+-   변환한 Message를 Publish
 
 
 .. code-block:: python
@@ -52,9 +52,9 @@ Driving the Robot
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
 
--   Create stop() function
--   Convert {"Stop": 0} to Json String
--   Publish the converted message
+-   stop() 함수 생성
+-   {"Stop": 0}을 Json 문자열로 변환
+-   변환한 Message를 Publish
 
 .. code-block:: python 
 
@@ -64,9 +64,9 @@ Driving the Robot
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
 
--   Create a moveTo() function
--   Convert {"MoveDelta": -0.5} to Json String
--   Publish the converted message
+-   moveTo() 함수 생성
+-   {"MoveDelta": -0.5}을 Json 문자열로 변환
+-   변환한 Message를 Publish
 
 .. code-block:: python 
 
@@ -76,9 +76,9 @@ Driving the Robot
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
 
--   Create a moveTo(distance) function
--   Convert {"MoveForward": distance} to Json string
--   Publish the converted message
+-   moveTo(distance) 함수 생성
+-   {"MoveForward": distance}을 Json 문자열로 변환
+-   변환한 Message를 Publish
 
 .. code-block:: python
 
@@ -88,11 +88,11 @@ Driving the Robot
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
 
--   Create turnTo() function
--   Convert 45° to radians
--   Convert {"TurnDelta": math.radians(45)} to Json string
--   Publish the converted message
-
+-   turnTo() 함수 생성
+-   45°를 radian으로 변환
+-   {"TurnDelta": math.radians(45)}을 Json 문자열로 변환
+-   변환한 Message를 Publish
+   
 .. code-block:: python
 
     def turnTo(degree):
@@ -101,11 +101,11 @@ Driving the Robot
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
 
--   Create turnTo(degree) function
--   Convert degree(°) to radians
--   Convert radian to int
--   Convert {"TurnDelta": math.radians(int(degree))} to Json string
--   Publish the converted message
+-   turnTo(degree) 함수 생성
+-   degree(°)를 radian으로 변환
+-   radian을 int형으로 변환
+-   {"TurnDelta": math.radians(int(degree))}을 Json 문자열로 변환
+-   변환한 Message를 Publish
 
 .. code-block:: python
 
@@ -113,16 +113,16 @@ Driving the Robot
     time.sleep(2)
     stop()
 
--   Run the move() function
--   2 second time delay
--   Run the stop() function
+-   move() 함수 실행
+-   2초간 시간 지연
+-   stop() 함수 실행
 
 .. code-block:: python
 
     moveTo(1)
 
--   Execute the moveTo(distance) function
--   1 distance forward
+-   moveTo(distance) 함수 실행
+-   1 거리 전진
 
 .. code-block:: python
 
@@ -130,10 +130,10 @@ Driving the Robot
     time.sleep(1)
     stop()
 
--   Run the turnTo(degree) function
--   170 degree rotation
--   1 second time delay
--   Run the stop() function
+-   turnTo(degree) 함수 실행
+-   170도 회전
+-   1초간 시간 지연
+-   stop() 함수 실행
 
 .. code-block:: python
 
@@ -141,7 +141,7 @@ Driving the Robot
     time.sleep(1)
     stop()
 
--   Run the turnTo(degree) function
--   25 degree rotation
--   1 second time delay
--   Run the stop() function
+-   turnTo(degree) 함수 실행
+-   25도 회전
+-   1초간 시간 지연
+-   stop() 함수 실행

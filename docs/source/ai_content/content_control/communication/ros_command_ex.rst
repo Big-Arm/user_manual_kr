@@ -3,7 +3,7 @@ ROS Command Example
 ===================
 
 -   01_ros.ipynbipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/comm3.png
@@ -12,7 +12,7 @@ ROS Command Example
 
     $ !rosnode list
 
--   Outputs a list of currently running ROS Nodes
+-   현재 실행되고 있는 ROS Node 목록을 출력
 
 .. image:: ../images/comm4.webp
 
@@ -20,7 +20,7 @@ ROS Command Example
 
     $ !rosnode info /joy_node
 
--   Outputs joy_node Print Node information
+-   joy_node Node의 정보를 출력
 
 .. image:: ../images/comm5.png
 
@@ -28,7 +28,7 @@ ROS Command Example
 
     $ !rostopic list
 
--   Prints a list of currently running ROS topics
+-   현재 실행되고 있는 ROS Topic 목록을 출력
 
 .. image:: ../images/comm6.png
 
@@ -36,7 +36,7 @@ ROS Command Example
 
     $ !rostopic info /imu
 
--   Output information of imu Topic
+-   imu Topic의 정보를 출력
 
 .. image:: ../images/comm7.png
 
@@ -44,7 +44,7 @@ ROS Command Example
 
     $ !rostopic echo /imu
 
--   Print imu Topic Message
+-   imu Topic의 Message를 출력
 
 
 .. image:: ../images/comm8.webp
@@ -53,7 +53,7 @@ ROS Command Example
 
     $ pm2 list
 
--   Check process list using pm2
+-   pm2를 이용한 프로세스 목록 확인
 
 .. image:: ../images/comm9.png
 
@@ -61,4 +61,4 @@ ROS Command Example
 
     $ !rosnode info /zetasound
 
--   Output information of zetasound Node
+-   zetasound Node의 정보를 출력

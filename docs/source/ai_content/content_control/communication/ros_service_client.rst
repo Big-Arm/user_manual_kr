@@ -4,7 +4,7 @@ ROS Service Client
 
 
 -   02_02_ros_service_client.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/comm12.png
@@ -18,10 +18,10 @@ ROS Service Client
     import rospy
     from rospy_tutorials.srv import *
     
--   Import print_function from __future__ module for Python3 compatibility
--   Import sys module
--   Import rospy_tutorials.srv module
--   Import rospy modules
+-   Python3 호환을 위한__future__ 모듈에서 print_function 가져오기
+-   sys 모듈 가져오기
+-   rospy_tutorials.srv 모듈 가져오기
+-   rospy 모듈 가져오기
 
 
 
@@ -36,10 +36,10 @@ ROS Service Client
         except rospy.ServiceException as e:
             print("Service call failed: %s"%e)
 
--   Create add_two_ints_client()  function
--   Create add_two_ints_client() 
--   Get add_two_ints Service result
--   exception handling
+-   add_two_ints_client() 함수 생성
+-   add_two_ints ServiceProxy 생성
+-   add_two_ints Service 결과 가져오기
+-   예외처리
 
 .. code-block:: python
 
@@ -54,5 +54,5 @@ ROS Service Client
     print("Requesting %s+%s"%(x, y))
     print("%s + %s = %s"%(x, y, add_two_ints_client(x, y)))
 
--   Get user input x, y
--   Service result output
+-   사용자 입력 x, y 받기
+-   Service 결과 출력

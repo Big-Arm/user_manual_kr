@@ -1,9 +1,9 @@
 ==============
-Detecting Cars
+자동차 검출하기
 ==============
 
 -   2-1. 영상에서 자동차 객체 검출.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/detcar1.png
@@ -13,52 +13,52 @@ Detecting Cars
 
     import subprocess
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    #Check the original video
+    #원본 동영상 확인하기
     run_command_before = 'bash ~/ai_example/show.sh car before'
     subprocess.call((run_command_before.split('\n')), shell=True)
 
 
--   Check the original video
+-   원본 동영상 확인하기
 
 .. image:: ../../images/detcar2.png
 
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_before = 'bash ~/ai_example/kill.sh display'
     subprocess.call((kill_command_before.split('\n')), shell=True)
 
 
--   Terminating the process
+-   프로세스 종료하기
 
 .. code-block:: python
 
-    # Detect objects
+    # 객체 검출하기
     detect_command_car = 'bash ~/ai_example/detect.sh car'
     subprocess.call((detect_command_car.split('\n')), shell=True)
 
--   Detecting objects
+-   객체 검출하기
 
 
 .. code-block:: python
 
-    # Check the processed video
+    # 검출 동영상 확인하기
     run_command_after = 'bash ~/ai_example/show.sh car after'
     subprocess.call((run_command_after.split('\n')), shell=True)
 
--   Check the processed video 
+-   검출 동영상 확인하기
 
 .. image:: ../../images/detcar3.png
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
@@ -66,4 +66,4 @@ Detecting Cars
     kill_command_after = 'bash ~/ai_example/kill.sh display'
     subprocess.call((kill_command_after.split('\n')), shell=True)
 
--   Terminating the process
+-   프로세스 종료하기

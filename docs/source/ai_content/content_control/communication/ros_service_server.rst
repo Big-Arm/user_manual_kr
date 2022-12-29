@@ -4,7 +4,7 @@ ROS Service Server
 
 
 -   02_01_ros_service_server.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/comm10.webp
@@ -17,9 +17,9 @@ ROS Service Server
     from rospy_tutorials.srv import AddTwoInts,AddTwoIntsResponse
     import rospy
     
--   Import print_function from `__future__` module for Python3 compatibility
--   Import AddTwoInts, AddTwoIntsResponse from rospy_tutorials.srv module
--   Import rospy modules
+-   Python3 호환을 위한__future__ 모듈에서 print_function 가져오기
+-   rospy_tutorials.srv 모듈에서 AddTwoInts, AddTwoIntsResponse 가져오기
+-   rospy 모듈 가져오기
 
 .. code-block:: python
 
@@ -27,9 +27,9 @@ ROS Service Server
         print("Returning [%s + %s = %s]"%(req.a, req.b, (req.a + req.b)))
         return AddTwoIntsResponse(req.a + req.b)
 
--   Create handle_add_two_ints() function
--   Output req.a, req.b, req.a + req.b
--   Return instances of req.a + req.b in AddTwoIntsResponse
+-   handle_add_two_ints() 함수 생성
+-   req.a, req.b, req.a + req.b 출력
+-   AddTwoIntsResponse에 req.a + req.b 인스턴스 반환
 
 .. code-block:: python
 
@@ -39,12 +39,12 @@ ROS Service Server
         print("Ready to add two ints.")
         rospy.spin()
 
--   Create `add_two_ints_server()` function
--   Create add_two_ints_server Node
--   Create add_two_ints Service
+-   add_two_ints_server() 함수 생성
+-   add_two_ints_server Node 생성
+-   add_two_ints Service 생성
 
 .. code-block:: python
 
     add_two_ints_server()
 
--   Create add_two_ints_server() function
+-   add_two_ints_server() 함수 실행

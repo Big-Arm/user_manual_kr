@@ -1,9 +1,9 @@
 ====================
-Blue Color Detection
+파란색 인식
 ====================
 
 -   01_color_blue.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/rob_ai_1.webp
@@ -18,8 +18,7 @@ Blue Color Detection
     import cv2
     import ipywidgets.widgets as widgets
 
--   Import python modules
-
+-   python 모듈 가져오기
 
 
 
@@ -35,10 +34,11 @@ Blue Color Detection
 
         cv2.rectangle(img, (280, 180), (360, 260), (0, 255, 0), 2)
         
-        # Add the H, S, V values of each matrix to the list in order
+        # 각각의 행열의 H,S,V 값을 차례로 리스트에 추가
         for i in range(280, 360):
             for j in range(180, 260): H.append(HSV[j, i][0])
         #Calculate the maximum and minimum of H, S, and V respectively
+        # H, S, V의 최대값과 최소값을 각각 계산합니다.
         H_min = min(H);H_max = max(H)
         #Judging the color
         if H_min >= 0 and H_max <= 20 or H_min >= 156 and H_max <= 180:
@@ -49,22 +49,22 @@ Blue Color Detection
         return img, color_name
 
 
--   Create get_color(img) function
--   Create list H, dictionary color_name
--   Resize image to 640x480
--   Convert image color space from RGB to HSV
--   Create a green (0, 255, 0) rectangle with a thickness of 2 at the starting point (280, 180) and ending point (60, 260)
--   Add hsv value to list H in the range of green rectangle (for i ~, for j ~)
--   Specify the smallest list H value for H_min and the largest list H value for H_max
--   If the value of h is 0 to 20 or 156 to 180
+-   get_color(img) 함수 생성
+-   list H, dictionary color_name 생성
+-   이미지 크기를 640x480 크기로 조정
+-   이미지 색공간을 RGB에서 HSV로 변환
+-   초록색 (0, 255, 0) 사각형을 2의 두께로 시작점(280, 180), 끝점 (60, 260) 위치에 생성
+-   초록색 사각형의 범위에서(for i ~, for j ~) list H에 hsv값 추가
+-   H_min에 가장 작은 list H값, H_max에 가장 큰 list H값으로 지정
+-   h값이 0 ~ 20이거나, 156 ~ 180일 경우
 
-    -   set color_name['name'] to 'blue'
+    -   color_name['name'] 을 'blue'로 지정
 
--   Other cases
+-   이외의 경우
 
-    -   Set color_name['name'] to 'none'
+    -   color_name['name'] 을 'none'으로 지정
 
--   return img, color_name
+-   img, color_name 반환
 
 .. code-block:: python
 
@@ -72,8 +72,8 @@ Blue Color Detection
         return bytes(cv2.imencode('.jpg',value)[1].tostring())
 
 
--   Create rgb8_to_jpeg(value, quality=75) function
--   After encoding the cv2 image into jpg format, return it as byte format
+-   rgb8_to_jpeg(value, quality=75) 함수 생성
+-   cv2 이미지를 jpg 형식으로 인코딩한 뒤, 이를 byte형식으로 반환
 
 .. code-block:: python
 
@@ -85,7 +85,7 @@ Blue Color Detection
     display(image_container)
 
 
--   Creating and outputting widgets to compare video images
+-   영상 이미지를 비교할 위젯 생성 및 출력
 
 
 .. code-block:: python
@@ -126,13 +126,13 @@ Blue Color Detection
     except rospy.ROSInterruptException as err:
         print(err)
 
--   Create ROS cv_bridge
--   Create and assign color_lower and color_upper
--   Create process_image(msg) function and handle exception
--   Convert ROS Image Message Type to bgr8 format
--   Output color name after executing get_color() function
--   Put the original image and get_color() processed image in the widget
--   Create start_node() function
--   Create zetabot Node
--   Subscribe to main_camera/raw topic and pass it to process_image() Callback function
--   start_node() function execution and exception handling
+-   ROS cv_bridge 생성
+-   color_lower 및 color_upper 생성 및 지정
+-   process_image(msg) 함수 생성 및 예외처리
+-   ROS Image Message Type을 bgr8 형식으로 변환
+-   get_color() 함수 실행 후, 색상 이름 출력
+-   위젯에 원본 이미지와 get_color() 처리한 이미지 넣기
+-   start_node() 함수 생성
+-   zetabot Node 생성
+-   main_camera/raw Topic을Subscribe하여 process_image() Callback 함수로 전달
+-   start_node() 함수 실행 및 예외처리

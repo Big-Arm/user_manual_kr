@@ -1,16 +1,16 @@
 =============================
-Write '10 lines' example code
+'10줄' 예제 코드 작성해보기
 =============================
 
 
 -   7. 10줄 예제 작성해보기.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/training1.png
 
--   Used Language: Python
--   Real-time object detection code using Raspberry Pi Camera
+-   사용 언어 : Python
+-   Raspberry Pi 카메라를 이용한 실시간 객체 검출 코드
 
 .. image:: ../../images/training2.png
 
@@ -30,7 +30,7 @@ Write '10 lines' example code
         display.Render(img)
         display.SetStatus("Object Detection | Network {:.0f} FPS".format(net.GetNetworkFPS()))
 
--   7. Write and modify code in example_tenline.py file
+-   7. example_tenline.py 파일에 Code 작성 및 수정
 
 
 .. code-block:: python
@@ -38,25 +38,25 @@ Write '10 lines' example code
     import subprocess
 
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    # Try the 10 line example
+    # 10줄 예제 실행해보기
     run_example = 'bash ~/ai_example/example_tenline.sh'
     subprocess.call((run_example.split('\n')), shell=True)
 
--   Try the 10 line example
+-   10줄 예제 실행해보기
 
-.. image:: ../../images/training3.png
+.. image:: ../../images/training3.pnterminating the processg
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_example = 'bash ~/ai_example/kill.sh camera'
     subprocess.call((kill_example.split('\n')), shell=True)
 
--   Terminating the Process
+-   프로세스 종료하기

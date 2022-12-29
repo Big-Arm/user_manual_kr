@@ -4,7 +4,7 @@ ROS Topic Publisher
 
 
 -   01_01_ros_topic_publisher.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/comm1.webp
@@ -14,8 +14,8 @@ ROS Topic Publisher
     import rospy
     from std_msgs.msg import String
     
--   Importing rospy modules
--   Importing String from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈에서 String 가져오기
 
 .. code-block:: python
 
@@ -29,9 +29,9 @@ ROS Topic Publisher
             pub.publish(hello_str)
             rate.sleep()
 
--   Create `talker()` function
--   Create talker nodes and chatter topics 
--   Publish "hello world" + ROS Timestamp Message
+-   talker() 함수 생성
+-   talker Node 및 chatter Topic 생성
+-   "hello world" + ROS Timestamp Message를 Publish
 
 .. code-block:: python
 
@@ -40,4 +40,4 @@ ROS Topic Publisher
     except rospy.ROSInterruptException:
         pass
 
--   Executing the talker() function and handling exceptions
+-   talker() 함수 실행 및 예외처리

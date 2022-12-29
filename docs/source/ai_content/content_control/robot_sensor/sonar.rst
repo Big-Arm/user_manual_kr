@@ -3,7 +3,7 @@ Sonar
 =====
 
 -   02_sonar.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/sensor2.webp
@@ -15,8 +15,8 @@ Sonar
     import rospy
     from std_msgs.msg import Float32MultiArray
 
--   Import the rospy module
--   Import Float32MultiArray from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈에서 Float32MultiArray 가져오기
 
 
 
@@ -37,9 +37,9 @@ Sonar
         print(err)
 
 
--   Create zetabot Node
+-   zetabot Node 생성
 -   sonar Topic Subscribe
--   Check message in data array format
+-   Message를 data array 형식으로 확인
 
 
 .. code-block:: python
@@ -58,7 +58,7 @@ Sonar
         print(err)
 
 
--   Create zetabot Node
+-   zetabot Node 생성
 -   sonar Topic Subscribe
--   Check the message according to the direction
+-   Message를 방향에 따라 확인
 

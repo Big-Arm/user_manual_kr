@@ -1,9 +1,9 @@
 ==============
-Detecting Dogs
+강아지 검출하기
 ==============
 
 -   2-3. 영상에서 강아지 객체 검출.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/detdog1.webp
@@ -13,58 +13,58 @@ Detecting Dogs
 
     import subprocess
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    #Check the original video
+    # 원본 동영상 확인하기
     run_command_before = 'bash ~/ai_example/show.sh dog before'
     subprocess.call((run_command_before.split('\n')), shell=True)
 
 
--   Check the original video
+-   원본 동영상 확인하기
 
 .. image:: ../../images/detdog2.webp
 
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_before = 'bash ~/ai_example/kill.sh display'
     subprocess.call((kill_command_before.split('\n')), shell=True)
 
 
--   Terminating the process
+-   프로세스 종료하기
 
 .. code-block:: python
 
-    # Detect objects
+    # 객체 검출하기
     detect_command_dog = 'bash ~/ai_example/detect.sh dog'
     subprocess.call((detect_command_dog.split('\n')), shell=True)
 
--   Detecting objects
+-   객체 검출하기
 
 
 .. code-block:: python
 
-    # Check the processed video
+    # 검출 동영상 확인하기
     run_command_after = 'bash ~/ai_example/show.sh dog after'
     subprocess.call((run_command_after.split('\n')), shell=True)
 
 
--   Check the processed video 
+-   검출 동영상 확인하기
 
 .. image:: ../../images/detdog3.webp
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_after = 'bash ~/ai_example/kill.sh display'
     subprocess.call((kill_command_after.split('\n')), shell=True)
 
--   Terminating the process
+-   프로세스 종료하기

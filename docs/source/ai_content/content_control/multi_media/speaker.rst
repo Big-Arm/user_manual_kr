@@ -1,10 +1,10 @@
-=======
-Speaker
-=======
+=====
+스피커
+=====
 
 
 -   01_sound.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/mul1.png
@@ -15,8 +15,8 @@ Speaker
     import rospy
     from std_msgs.msg import Int32MultiArray
 
--   Import the rospy module
--   Import Int32MultiArray from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈에서 Int32MultiArray 가져오기
 
 
 
@@ -26,7 +26,7 @@ Speaker
     sound = Int32MultiArray()
 
 
--   Set sound variable as Int32MultiArray() Message Type
+-   sound 변수를 Int32MultiArray() Message Type으로 지정
 
 .. code-block:: python
 
@@ -34,8 +34,8 @@ Speaker
         sound.data=[1,number]
 
 
--   Create play(number) function
--   Specify the data of the sound message in [1,number] format
+-   play(number) 함수 생성
+-   sound Message의 data를 [1,number] 형식으로 지정
 
 .. code-block:: python
 
@@ -61,13 +61,13 @@ Speaker
         print(err)
 
 
--   Create the sounds() function
--   Create robot_sound Topic Publisher
--   Get user input into number variable
--   Execute the play(number) function
+-   sounds() 함수 생성
+-   robot_sound Topic Publisher 생성
+-   number 변수에 사용자 입력 받기
+-   play(number) 함수 실행
 -   sound Message Publish
--   2 second time delay and exception handling
--   Create start_node() function
--   Create zetabot Node
--   runs the sounds() function
--   start_node() function execution and exception handling
+-   2초간 시간 지연 및 예외처리
+-   start_node() 함수 생성
+-   zetabot Node 생성
+-   sounds() 함수 실행
+-   start_node() 함수 실행 및 예외처리

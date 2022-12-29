@@ -1,9 +1,9 @@
 ====================
-Time Slot Subscriber
+타임슬롯 Subscriber
 ====================
 
 -   2_2_타임슬롯_receiver.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/conv4.png
@@ -13,8 +13,8 @@ Time Slot Subscriber
 
     2_2_타임슬롯_receiver.ipynb
 
--   Import rospy modules
--   Import Int32 from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈의 String, Int32 가져오기
 
 
 .. code-block:: python
@@ -22,7 +22,7 @@ Time Slot Subscriber
     def callback(msg):
         pass
 
--   Create callback() function
+-   callback() 함수 생성
 
 
 .. code-block:: python
@@ -31,5 +31,5 @@ Time Slot Subscriber
     sub = rospy.Subscriber('my_topic',Int32, callback)
     rospy.spin()
 
--   Create Receiver Node
--   Create my_topic Topic Subscriber
+-   Receiver Node 생성
+-   my_topic Topic Subscriber 생성

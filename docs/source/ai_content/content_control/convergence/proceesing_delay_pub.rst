@@ -1,10 +1,10 @@
 ==========================
-Processing Delay Publisher
+처리지연 Publisher
 ==========================
 
 
 -   1_1_처리지연_sender.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/conv1.png
@@ -15,9 +15,8 @@ Processing Delay Publisher
     import rospy
     from std_msgs.msg import Int32
 
--   Import rospy modules
--   Import Int32 from std_msgs.msg module
-
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈의 Int32 가져오기
 
 
 .. code-block:: python
@@ -27,15 +26,15 @@ Processing Delay Publisher
     rate = rospy.Rate(1000) # Generate a topic by incrementing the number by 1 1000 times per second
 
 
--   Create Sender Node
+-   Sender Node 생성
 -   increase_num Topic Publish
--   Set it to have a rate of 1000hz (1000 executions per second)
+-   1000hz의 rate(1초에 1000번 실행)를 가지도록 설정
 
 .. code-block:: python
 
     cnt = 1
 
--   set the variable cnt to 1
+-   변수 cnt를 1로 지정
 
 .. code-block:: python
 
@@ -45,4 +44,4 @@ Processing Delay Publisher
         rate.sleep()
     rospy.spin()
 
--   Set to publish cnt Message and increase cnt value by 1 when rospy is running
+-   rospy가 실행 상태일 때, cnt Message를 Publish하고, cnt값을 1씩 증가시키도록 설정

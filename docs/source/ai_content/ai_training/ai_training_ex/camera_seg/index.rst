@@ -1,5 +1,5 @@
 ===============================
-Object Segmentation with Camera
+카메라로 객체 분할하기
 ===============================
 
 Here are the articles in this section:

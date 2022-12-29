@@ -1,31 +1,31 @@
-========================
-Option: 6-axis robot arm
-========================
+==============
+옵션 : 6축 로봇팔
+==============
 
-This is a description of the 6-axis DOF bot.
+6축 DOF봇에 관한 설명입니다.
 
 .. image:: ../images/six_axis.jpg
 
 .. list-table:: 
    :header-rows: 1
 
-   * - Outline
-     - Specification
-   * - Product Name
+   * - 개요
+     - 제원
+   * - 제품명
      - Yahboom DOFBOT
-   * - Mechanical arm material
-     - Aluminum alloy
-   * - Total size
+   * - 기계 팔 소재 
+     - 알루미늄 합금 
+   * - 총 크기
      - 303*135*473mm
-   * - Weight after assembly
+   * - 조립 후 무게
      - 1.2kg
-   * - DOFBOT degrees of freedom
+   * - DOFBOT 자유도
      - 5 degrees of freedom & Gripper 
-   * - Weight
+   * - 무게
      - 500g
-   * - upper limb width
+   * - 상지폭
      - 350mm
-   * - Grasping Object Diameter
-     - Maximum 6cm
-   * - Voltage
+   * - 움켜쥘수 있는 물체 지름
+     - 최대 6cm
+   * - 전압
      - 100 ~ 240V , 50/60Hz

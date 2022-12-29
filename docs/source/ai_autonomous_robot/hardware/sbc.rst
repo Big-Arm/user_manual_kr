@@ -2,28 +2,28 @@
 SBC(Single Board Computer)
 ==========================
 
-This is a description of the Jetson Nano, the core of the Zetabot.
+제타봇의 핵심인 젯슨 나노에 대한 설명입니다.
 
 .. image:: ../images/sbc_1.jpg
 
 .. list-table:: 
    :header-rows: 1
    
-   * - Number
-     - Interface
+   * - 번호
+     - 인터페이스
    * - 1
-     - Heat Sink, Micro SD Card Terminal
+     - 방열판, Micro Sd 카드 단자
    * - 2 
-     - GPIO 40-pin
+     - GPIO 40핀
    * - 3
-     - Micro 5-pin terminal, data
+     - 마이크로 5핀 단자, 데이터 
    * - 4
-     - Internet port
+     - 이더넷 포트
    * - 5
-     - USB 3.0 port
+     - USB 3.0 포트
    * - 6,7
-     - HDMI port
+     - HDMI 포트
    * - 8
-     - Power cable
+     - 전원 케이블
    * - 9
-     - Camera connector
+     - 카메라 커넥터

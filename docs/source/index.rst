@@ -2,7 +2,7 @@
 Zetabot
 =======
 
-Welcome to Zetabot user manual
+ROS 기반의 교육용 자율 주행 AI로봇 Zetabot 메뉴얼입니다.
 
 
 AI Autonomous Robot 
@@ -100,7 +100,7 @@ Mini Autonomous Robot
    :titlesonly:
    :maxdepth: 1
    :hidden:
-   :caption: Lets Try It Out!!!
+   :caption: 직접해보는 것!!!
 
    ai_content/content_control/communication/index
    ai_content/content_control/robot_sensor/index   
@@ -111,23 +111,12 @@ Mini Autonomous Robot
 .. role:: orange
 
 
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-   :hidden:
-   :caption: :orange: `testing`\ndsd
-   :caption: test
-   ai_content/content_control/communication/index
-   ai_content/content_control/robot_sensor/index
-   ai_content/content_control/multi_media/index
-   ai_content/content_control/convergence/index
-
 
 .. toctree::
    :titlesonly:
    :maxdepth: 2
    :hidden:
-   :caption: AI Training Content
+   :caption: AI 실습 컨텐츠
 
    ai_content/ai_training/robot_ai/index
    ai_content/ai_training/ai_training_ex/index
@@ -138,7 +127,7 @@ Mini Autonomous Robot
    :titlesonly:
    :maxdepth: 2
    :hidden:
-   :caption: Lets Have a Lot of Fun!!!
+   :caption: 신나게 놀아보는 것!!!
    
    ai_content/having_fun/robot_arm/index
    ai_content/having_fun/fun_trials/index 
@@ -150,7 +139,7 @@ Mini Autonomous Robot
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Lets Do it as a Team!!!
+   :caption: 같이 함께 해보는 것!!!
    
    ai_content/autonomous_driving/basic_concept/index
    ai_content/autonomous_driving/navigation/index

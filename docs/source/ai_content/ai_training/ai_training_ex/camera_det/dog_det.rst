@@ -1,10 +1,10 @@
 ==============
-Detecting Dogs
+강아지 검출하기
 ==============
 
 
 -   3-3. 카메라로 강아지 객체 검출.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/dog_det1.webp
@@ -14,27 +14,27 @@ Detecting Dogs
 
     import subprocess
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    # Detecting dogs with Raspberry Pi Camera
+    # 라즈베리 파이 카메라로 강아지 인식하기
     detect_command_dog = 'bash ~/ai_example/detect.sh cam_dog'
     subprocess.call((detect_command_dog.split('\n')), shell=True)
 
--   Detecting dogs with Raspberry Pi Camera
+-   라즈베리 파이 카메라로 강아지 인식하기
 
 .. image:: ../../images/dog_det2.webp
 
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_face = 'bash ~/ai_example/kill.sh camera'
     subprocess.call((kill_command_dog.split('\n')), shell=True)
 
 
--   Terminating the process
+-   프로세스 종료하기

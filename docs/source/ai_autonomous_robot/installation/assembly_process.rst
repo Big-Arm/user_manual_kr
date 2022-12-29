@@ -1,27 +1,28 @@
-==================
-※ Assembly Process
-==================
+==========
+※ 조립 과정
+==========
 
-This are pictures taken during the assembly process of the Zetabot.
+제타봇의 조립과정을 찍은 사진입니다.
 
-----------------------------
-Jetson Nano & lidar assembly
-----------------------------
+
+-----------------
+젯슨 나노&라이다 조립
+-----------------
 
 .. list-table:: 
    :header-rows: 1
 
-   * - Picture
-     - Description
+   * - 그림
+     - 설명
    * - .. image:: ../images/hetson_lidar_1.jpg
           :scale: 45 %
-     - 1. The process of assembling the base.
+     - 1. 베이스를 조립하는 과정입니다.
    * - |part_2|
-     - 2. This is a picture with Jetson Nano inside.
+     - 2. 젯슨 나노가 들어가 있는 사진입니다.
    * - |part_3|
-     - 3. The red board is the IMU board.
+     - 3. 빨간색 보드는 IMU 보드입니다.
    * - |part_4|
-     - 4. This is the lidar sensor on the top of the Zetabot.
+     - 4. 제타봇 상단에 있는 라이다 센서입니다.
  
 .. |part_1| image:: ../images/hetson_lidar_1.jpg
 .. |part_2| image:: ../images/hetson_lidar__2.jpg
@@ -30,24 +31,24 @@ Jetson Nano & lidar assembly
 
 
 |
--------------------------------------------
-Camera, Ultrasonic Sensor, Battery Assembly
--------------------------------------------
+-------------------------
+카메라, 초음파 센서,배터리 조립
+-------------------------
 
 
 .. list-table:: 
    :header-rows: 1
 
-   * - Picture
-     - Description
+   * - 그림
+     - 설명
    * - |part_21|
-     - 1. This is the ultrasonic sensor. Four are attached around the Zetabot.
+     - 1. 초음파 센서입니다. 제타봇의 옆면에 4개가 부착이 됩니다.
    * - |part_22|
-     - 2. This is the camera sensor. It will be attached to the front of the Zetabot.
+     - 2. 카메라 센서입니다. 제타봇의 전면에 부착될 예정입니다.
    * - |part_23|
-     - 3. Combination of all the modules described so far.
+     - 3. 지금까지 설명했던 모든 모듈들을 결합한 장면입니다.
    * - |part_24|
-     - 4. If you combine the side plate here, the Zetabot is completed.
+     - 4. 여기에 옆면 플레이트만 결합을 하면 제타봇이 완성됩니다.
  
 
 

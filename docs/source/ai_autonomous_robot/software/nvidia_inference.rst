@@ -4,13 +4,13 @@ NVIDIA Inference
 
 .. image:: ../images/nvidia_interface.png
 
-- NVIDIA Inference Features
+- NVIDIA Inference의 특징
 
-  1. Inference and real-time DNN vision library for the NVIDIA Jetson series
-  2. Support Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier/AGX Orin series
-  3. Deep learning inference support using Tensor RT
-  4. Python/C++ library
-  5. Network Training support using Pytorch
+  1. NVIDIA Jetson 시리즈를 위한 추론 및 실시간 DNN 비전 라이브러리
+  2. Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier/AGX Orin 시리즈 지원
+  3. Tensor RT를 이용한 딥러닝 추론 지원
+  4. Python / C++ 라이브러리
+  5. PyTorch를 이용한 Network Training 지원
 
 .. list-table:: 
    :header-rows: 1
@@ -18,17 +18,17 @@ NVIDIA Inference
    * - Network
      - Purpose
    * - imageNet
-     - Image Recognition  
+     - 이미지 인식 (Image Recognition)
    * - detectNet
-     - Object Detection  
+     - 객체 감지 (Object Detection)
    * - segNet
-     - Semantic Segmentation  
+     - 영상 분할 (Semantic Segmentation)
    * - poseNet
-     - Pose Estimation 
+     - 포즈 추정 (Pose Estimation)
    * - depthNet
-     - Monocular Depth  
+     - 단안 깊이 추정 (Monocular Depth)
    * - ResNet-18
-     - Training Classification / Recognition  
+     - Training Classification / Recognition
    * - SSD-Mobilenet
      - Training Object Detection  
      

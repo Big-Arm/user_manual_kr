@@ -1,5 +1,5 @@
 ==================================
-Detecting Objects with Camera
+카메라로 객체 검출하기
 ==================================
 
 Here are the articles in this section:

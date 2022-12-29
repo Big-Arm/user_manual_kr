@@ -3,7 +3,7 @@ LIDAR
 =====
 
 -   04_scan.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/sensor5.png
@@ -14,8 +14,8 @@ LIDAR
     import rospy
     from sensor_msgs.msg import LaserScan
 
--   Import the rospy module
--   Import the LaserScan from the sensor_msgs.msg module
+-   rospy 모듈 가져오기
+-   sensor_msgs.msg 모듈에서 LaserScan 가져오기
 
 
 
@@ -36,5 +36,5 @@ LIDAR
         print(err)
 
 
--   Create zetabot Node
--   scan Topic Subscribe and Message confirmation
+-   zetabot Node 생성
+-   scan Topic Subscribe 및 Message 확인

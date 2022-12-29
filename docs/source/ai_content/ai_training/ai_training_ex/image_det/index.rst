@@ -1,5 +1,5 @@
 =================================
-Detecting Objects within an Image
+이미지로 객체 검출하기
 =================================
 
 Here are the articles in this section:

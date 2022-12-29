@@ -1,10 +1,10 @@
 ==================
-Joystick Vibration
+조이스틱 진동
 ==================
 
 
 -   02_rumble.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/mul2.png
@@ -12,12 +12,11 @@ Joystick Vibration
 
 .. code-block:: python
 
-    # If you operate the robot and run the vibration module, it does not proceed.
-    import rospy
+    # 로봇 조작을 하고 진동모듈을 실행하면 진행이 되지 않음    import rospy
     from std_msgs.msg import Int32MultiArray
 
--   Import rospy modules
--   Import Int32MultiArray from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈에서 Int32MultiArray 가져오기
 
 
 
@@ -27,7 +26,7 @@ Joystick Vibration
     rumble = Int32MultiArray()
 
 
--   Set rumble variable to Int32MultiArray() Message Type
+-   rumble 변수를 Int32MultiArray() Message Type으로 지정
 
 .. code-block:: python
 
@@ -44,8 +43,8 @@ Joystick Vibration
             print("유효하지 않은 숫자 및 문자입니다.")
 
 
--   Create play(number) function
--   Specify data of rumble message in [1, number] format according to number
+-   play(number) 함수 생성
+-   number에 따라 rumble Message의 data를 [1, 숫자] 형식으로 지정
 
 .. code-block:: python
 
@@ -71,13 +70,13 @@ Joystick Vibration
         print(err)
 
 
--   Create a rumbles() function
--   Create ds4_vibration Topic Publisher
--   Get user input into number variable
--   Execute the play(number) function
+-   rumbles() 함수 생성
+-   ds4_vibration Topic Publisher 생성
+-   number 변수에 사용자 입력 받기
+-   play(number) 함수 실행
 -   rumble Message Publish
--   2 second time delay and exception handling
--   Create start_node() function
--   Create zetabot Node
--   run the rumbles() function
--   start_node() function execution and exception handling
+-   2초간 시간 지연 및 예외처리
+-   start_node() 함수 생성
+-   zetabot Node 생성
+-   rumbles() 함수 실행
+-   start_node() 함수 실행 및 예외처리

@@ -3,7 +3,7 @@ Camera
 ======
 
 -   03_camera.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/sensor4.png
@@ -18,7 +18,7 @@ Camera
     import cv2
     import ipywidgets.widgets as widgets
 
--   Import the python modules
+-   python 모듈 가져오기
 
 
 
@@ -53,6 +53,6 @@ Camera
         print(err) #Display camera assembly
 
 
--   Create zetabot Node
+-   zetabot Node 생성
 -   /main_camera/raw Topic Subscribe
--   Convert Message to jpg format and check with ipywidgets
+-   Message를 jpg형식으로 변환하여 ipywidgets으로확인

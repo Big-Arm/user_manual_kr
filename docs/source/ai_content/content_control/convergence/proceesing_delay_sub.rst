@@ -1,10 +1,10 @@
 ===========================
-Processing Delay Subscriber
+처리지연 Subscriber
 ===========================
 
 
 -   1_2_처리지연_receiver.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/conv2.png
@@ -15,8 +15,8 @@ Processing Delay Subscriber
     import rospy
     from std_msgs.msg import Int32
 
--   Import rospy modules
--   Import Int32 from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈의 Int32 가져오기
 
 
 
@@ -24,7 +24,7 @@ Processing Delay Subscriber
 
     rospy.init_node('Receiver')
 
--   Create Receiver Node
+-   Receiver Node 생성
 
 
 .. code-block:: python
@@ -32,8 +32,8 @@ Processing Delay Subscriber
     pre_num = 0
     cur_num = 0
 
--   Set variable pre_num to 0
--   Set variable cur_num to 0
+-   변수 pre_num을 0으로 지정
+-   변수 cur_num을 0으로 지정
 
 .. code-block:: python
 
@@ -55,24 +55,24 @@ Processing Delay Subscriber
         pre_num = cur_num
 
 
--   Create callback(msg) function
--   Declare pre_num and cur_num as global variables
--   Designate cur_num as message data
--   3 second time delay
--   cur_num - if pre_num is not 1,
+-   callback(msg) 함수 생성
+-   pre_num, cur_num을 전역변수로 선언
+-   cur_num을 Message의 data로 지정
+-   3초간 시간 지연
+-   cur_num - pre_num 이 1이 아닐 경우,
 
-    -   Output in order of message data, pre_num + 1, cur_num -1, cur_num - pre_num -1
-    -   Data: (current data) Missing: (minimum value of missing data ~ maximum value of missing data) (cnt: (number of missing data))
+    -   Message data, pre_num + 1, cur_num -1_,_ cur_num - pre_num -1 순서대로 출력
+    -   Data : (현재 data) Missing: (누락된 data 최솟값 ~ 누락된 data 최댓값) (cnt: (누락된 data 개수))
 
--   Other cases
+-   이외의 경우
 
-    -   Message data output
+    -   Message data 출력
 
--   Specify pre_num as cur_num
+-   pre_num을 cur_num으로 지정
 
 .. code-block:: python
 
     sub = rospy.Subscriber('increase_num', Int32, callback, queue_size=1)
     rospy.spin()
 
--   Create increase_num Topic Subscriber
+-   increase_num Topic Subscriber 생성

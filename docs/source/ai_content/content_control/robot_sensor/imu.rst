@@ -3,7 +3,7 @@ IMU
 ===
 
 -   01_imu.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/sensor1.webp
@@ -15,9 +15,9 @@ IMU
     from sensor_msgs.msg import Imu
     from tf.transformations import quaternion_from_euler
 
--   Import the rospy module
--   Import Imu from sensor_msgs.msg module
--   Import quaternion_from_euler from tf.transformations module
+-   rospy 모듈 가져오기
+-   sensor_msgs.msg 모듈에서 Imu 가져오기
+-   tf.transformations 모듈에서 quaternion_from_euler 가져오기
 
 
 
@@ -38,6 +38,6 @@ IMU
         print(err)
 
 
--   Create zetabot Node
+-   zetabot Node 생성
 -   imu Topic Subscribe
--   Check message by dividing it into x, y, z, w values
+-   Message를 x, y, z, w값으로 나누어 확인

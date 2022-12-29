@@ -1,10 +1,10 @@
-================
-Depth Estimation
-================
+==================
+깊이 (Depth) 추정하기
+==================
 
 
 -   5. 카메라로 깊이 추정.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/dept_est1.png
@@ -14,27 +14,27 @@ Depth Estimation
 
     import subprocess
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    # Depth Estimation with Raspberry Pi Camera
+    # 라즈베리 파이 카메라로 depth 추정하기
     detect_command_depth = 'bash ~/ai_example/detect.sh cam_depth'
     subprocess.call((detect_command_depth.split('\n')), shell=True)
 
 
--   Depth Estimation with Raspberry Pi Camera
+-   라즈베리 파이 카메라로 depth 추정하기
 
 .. image:: ../../images/dept_est2.png
 
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_depth = 'bash ~/ai_example/kill.sh camera'
     subprocess.call((kill_command_depth.split('\n')), shell=True)
     
--   Terminating the process
+-   프로세스 종료하기

@@ -1,9 +1,9 @@
 ============================
-Driving the Robot (Odometry)
+로봇 구동 (Odometry)
 ============================
 
 -   02_wheel_odom.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/odometry1.png

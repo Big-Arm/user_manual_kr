@@ -1,10 +1,10 @@
 ========================
-Hand Gesture Recognition
+손 포즈 추정하기
 ========================
 
 
 -   6. 카메라로 손 포즈 추정.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../../images/hand1.png
@@ -14,27 +14,27 @@ Hand Gesture Recognition
 
     import subprocess
 
--   Import the subprocess module
+-   subprocess 모듈 가져오기
 
 
 .. code-block:: python
 
-    # Hand gesture detection with Raspberry Pi Camera
+    # 라즈베리 파이 카메라로 손 포즈 추정하기
     detect_command_pose = 'bash ~/ai_example/detect.sh cam_pose'
     subprocess.call((detect_command_pose.split('\n')), shell=True)
 
 
--   Hand Gesture Detection with Raspberry Pi Camera
+-   라즈베리 파이 카메라로 손 포즈 추정하기
 
 .. image:: ../../images/hand2.png
 
 
--   Executed on Jetson Nano
+-   Jetson Nano에서 실행된 모습
 
 .. code-block:: python
 
-    # terminating the process
+    # 프로세스 종료하기
     kill_command_pose = 'bash ~/ai_example/kill.sh camera'
     subprocess.call((kill_command_pose.split('\n')), shell=True)
 
--   Terminating the process
+-   프로세스 종료하기

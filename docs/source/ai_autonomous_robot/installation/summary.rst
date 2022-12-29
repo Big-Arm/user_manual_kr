@@ -1,23 +1,27 @@
-=======
-Summary
-=======
+===
+개요
+===
 
-------------------------------------------------------------------------------
-Ability to converge artificial intelligence with software, robots, and content
-------------------------------------------------------------------------------
-Korean, english and Mathematics-oriented classes: Do students want them? And would the world want it? 
+----------------------------------------------
+인공지능과 소프트웨어, 로봇, 콘텐츠를 융합할 수 있는 능력
+----------------------------------------------
+국 영 수 위주의 수업 : 학생은 원할까? 그리고 세상은 원할까?
 
-- As an alternative, do classes such as IOT technology create the future?
-- AI education is simply teaching ‘IoT technology’, especially leaving the female students not interested
-- Inability to adapt to various student preferences and excessive simplicity of AI education, results in no educational future technology experience
+- 대안으로 IOT 기술 등의 수업이 미래를 만들어주는가?
+- AI 교육이 단순히 ‘IOT 기술’을 가르치는 데 그치고 있음 특히 여학생은 별 흥미가 없음
+- 다양한 학생의 기호에 적응하지 못하고 AI 교육의 지나친 단순성으로 교육 미래 기술 체험 등이 없음
 
-Transformation robot to respond to various businesses
------------------------------------------------------
+다양한 비즈니스에 대응하기 위해 변신 로봇
+---------------------------------
 
-- Try practical IT education through Zetabot!
+- 제타봇을 통하여 실질적인 IT 교육을 해보세요!
+- 
 .. image:: ../images/summary_1.webp
 .. image:: ../images/summary_2.webp
-Components of Zetabot
+
+제타봇의 구성 요소
 ---------------------
+
 .. image:: ../images/summary_3.webp
-① Antenna ② Battery indicator ③ Charging port ④ Power button ⑤ Ultrasonic sensor ⑥ RP LIDAR ⑦ Bumper
+
+① 안테나 ② 배터리 표시 ③ 충전단자 ④ 전원버튼 ⑤ 초음파 센서 ⑥ RP LIDAR ⑦ 범퍼

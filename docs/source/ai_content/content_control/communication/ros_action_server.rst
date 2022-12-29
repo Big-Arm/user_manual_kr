@@ -4,7 +4,7 @@ ROS Action Server
 
 
 -   03_01_ros_action_server.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/comm14.png
@@ -17,14 +17,14 @@ ROS Action Server
     import actionlib
     import actionlib_tutorials.msg
         
--   Import rospy modules
--   Import the actionlib and actionlib_tutorials.msg modules
+-   rospy 모듈 가져오기
+-   actionlib 및 actionlib_tutorials.msg 모듈 가져오기
 
 
 .. code-block:: python
 
     class FibonacciAction(object):
-        # Generate messages for use in publishing feedback and results
+        # feedback과 result를 publish에 사용하기 위한 메시지 생성
         _feedback = actionlib_tutorials.msg.FibonacciFeedback()
         _result = actionlib_tutorials.msg.FibonacciResult()
 
@@ -37,24 +37,24 @@ ROS Action Server
             r = rospy.Rate(1)
             success = True
             
-            # Add the starting point of the Fibonacci sequence
+            # 피보나치 수열의 시작점을 추가
             self._feedback.sequence = []
             self._feedback.sequence.append(0)
             self._feedback.sequence.append(1)
 
-            # console publish information for users
+            # 사용자들을 위한 콘솔의 publish 정보
             rospy.loginfo('%s: Executing, creating fibonacci sequence of order %i with seeds %i, %i' % (self._action_name, goal.order, self._feedback.sequence[0], self._feedback.sequence[1]))
             
-            # start action execution
+            # 액션 실행 시작
             for i in range(1, goal.order):
-                # Check if there is no request from the client
+                # client에서 요청이 없는지 체크
                 if self._as.is_preempt_requested():
                     rospy.loginfo('%s: Preempted' % self._action_name)
                     self._as.set_preempted()
                     success = False
                     break
                 self._feedback.sequence.append(self._feedback.sequence[i] + self._feedback.sequence[i-1])
-                # publish feedback
+                # feedback을 publish
                 self._as.publish_feedback(self._feedback)
                 r.sleep()
                 
@@ -63,8 +63,8 @@ ROS Action Server
                 rospy.loginfo('%s: Succeeded' % self._action_name)
                 self._as.set_succeeded(self._result)
 
--   Fibonacci operation
--   Reference
+-   피보나치 연산
+-   참조 :
 
     `http://wiki.ros.org/actionlib_tutorials/Tutorials/Writing%20a%20Simple%20Action%20Server%20using%20the%20Execute%20Callback%20(Python)`__future__
 
@@ -76,5 +76,5 @@ ROS Action Server
     rospy.spin()
 
 
--   Execute fibonacci Action Node for Fibonacci operation
--   Output success result after Fibonacci operation
+-   피보나치 연산을 위한 fibonacci Action Node 실행
+-   피보나치 연산 후 성공 결과 출력

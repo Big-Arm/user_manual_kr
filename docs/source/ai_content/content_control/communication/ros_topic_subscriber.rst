@@ -3,7 +3,7 @@ ROS Topic Subscriber
 ====================
 
 -   01_02_ros_topic_subscriber.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/comm2.webp
@@ -13,16 +13,16 @@ ROS Topic Subscriber
     import rospy
     from std_msgs.msg import String
 
--   Import rospy modules
--   Import String from std_msgs.msg module
+-   rospy 모듈 가져오기
+-   std_msgs.msg 모듈에서 String 가져오기
 
 .. code-block:: python
 
     def callback(data):
         rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
 
--   Create `callback()` function
--   Node id and message data output
+-   callback() 함수 생성
+-   Node id 및 Message data 출력
 
 .. code-block:: python
 
@@ -40,4 +40,4 @@ ROS Topic Subscriber
 
     listener()
 
--   Run the listener function
+-   listener 함수 실행
