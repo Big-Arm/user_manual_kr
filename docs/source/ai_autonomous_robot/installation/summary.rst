@@ -15,7 +15,7 @@
 ---------------------------------
 
 - 제타봇을 통하여 실질적인 IT 교육을 해보세요!
-- 
+  
 .. image:: ../images/summary_1.webp
 .. image:: ../images/summary_2.webp
 
