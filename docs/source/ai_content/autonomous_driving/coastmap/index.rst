@@ -3,7 +3,7 @@ Global / Local Coastmap
 =======================
 
 -   01_costmap_dy_rc.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/global.png
@@ -13,8 +13,8 @@ Global / Local Coastmap
     import rospy
     import dynamic_reconfigure.client
 
--   Import the rospy module
--   Import dynamic_reconfigure.client module
+-   rospy 모듈 가져오기
+-   dynamic_reconfigure.client 모듈 가져오기
 
 .. code-block:: python
 
@@ -30,15 +30,15 @@ Global / Local Coastmap
             self.timer.shutdown()
             rospy.signal_shut down("")
 
--   Create Param(object) Class
--   Create init(self) function
--   Create ROS timer and designate callback
--   After creating client1, specify global_costmap of move_base Node in dynamic_reconfigure Client
--   After creating client2, specify local_costmap of move_base Node in dynamic_reconfigure Client
--   Create call_back(self, timer) function
--   Update the parameters of client1 to {"footprint": [], "robot_radius": 0.2}
--   Update the parameters of client2 to {"footprint": [], "robot_radius": 0.2}
--   Timer and ROS shutdown
+-   Param(object) Class 생성
+-   **init**(self) 함수 생성
+-   ROS timer 생성 및 Callback 지정
+-   client1 생성 후 dynamic_reconfigure Client에 move_base Node의 global_costmap 지정
+-   client2 생성 후 dynamic_reconfigure Client에 move_base Node의 local_costmap 지정
+-   call_back(self, timer) 함수 생성
+-   client1의 Parameter를 {"footprint": [], "robot_radius": 0.2}로 Update
+-   client2의 Parameter를 {"footprint": [], "robot_radius": 0.2}로 Update
+-   Timer 및 ROS 종료
 
 .. code-block:: python
 
@@ -47,5 +47,5 @@ Global / Local Coastmap
     rospy.spin()
 
 
--   Create costmap_dy_rc Node
--   Assign Param() Class to param variable
+-   costmap_dy_rc Node 생성
+-   param 변수에 Param() Class 지정
