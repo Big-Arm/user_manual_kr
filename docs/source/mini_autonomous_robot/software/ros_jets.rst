@@ -2,8 +2,8 @@
 ROS 1 (Jetson Nano)
 ======================
 
-.. image:: ../images/ros_jets.webp
-
+.. image:: ../images/ros.png
+   
 * ROS의 특징
 
   1. Robot Operation System

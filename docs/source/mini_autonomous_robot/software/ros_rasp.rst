@@ -2,7 +2,8 @@
 ROS 2 (Raspberry)
 ======================
 
-.. image:: ../images/ros.png
+.. image:: ../images/ros_jets.webp
+
 
 
 * ROS 2의 특징
