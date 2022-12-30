@@ -69,7 +69,18 @@ Mini Autonomous Robot
    Red Mini-Zetabot
 
 
+.. figure:: images/bumper1.png
+   :figwidth: 45 %
+   :align: center
 
+   Zetabot light (Red)
+
+
+.. figure:: images/bumper2.png
+   :figwidth: 45 %
+   :align: center
+
+   Zetabot light (blue)
 
 
 
