@@ -1,20 +1,20 @@
 =============
-Dancing Robot
+로봇팔 댄스
 =============
 
 
-Lets dance with our robots
+로봇과 함께 춤을 추자
 --------------------------
 
 .. image:: ../images/dancegit.png
 
 -   1. 로봇팔.댄스.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/robot_arm_dance.webp
 
--   Randomly moving robot arm dance
+-   무작위로 움직이는 로봇팔 댄스
 
 .. code-block:: python
 

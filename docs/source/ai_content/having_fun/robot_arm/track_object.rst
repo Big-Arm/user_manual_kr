@@ -1,14 +1,14 @@
 =====================================
-Tracking Objects with the Robotic Arm
+로봇팔로 객체 추적하기
 =====================================
 
 -   05_06_color_follow
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/track1.png
 
--   Recognition and tracking of blue, green, yellow and red objects using robotic arm camera
+-   로봇팔 카메라를 이용한 파란색, 초록색, 노란색, 빨간색 객체 인식 밎 추적
 -   Import head file
 
 .. code-block:: python

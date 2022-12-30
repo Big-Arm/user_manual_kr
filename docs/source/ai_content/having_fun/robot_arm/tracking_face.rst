@@ -1,14 +1,14 @@
 ====================================
-Tracking a Face with the Robotic Arm
+로봇팔로 얼굴 추적하기
 ====================================
 
 -   05_07_face_follow
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/face1.png
 
--   Face Recognition and Tracking Using Robot Arm Camera
+-   로봇팔 카메라를 이용한 얼굴 인식 밎 추적
 -   Import head file
 
 .. code-block:: python

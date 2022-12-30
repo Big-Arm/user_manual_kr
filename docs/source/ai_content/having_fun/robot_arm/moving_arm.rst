@@ -1,9 +1,9 @@
 ====================
-Moving the Robot Arm
+로봇팔 움직이기
 ====================
 
 -   05_01_left_right.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/arm1.webp
@@ -15,16 +15,16 @@ Moving the Robot Arm
     import time
     from Arm_Lib import Arm_Device
 
-    # Register robot arm as an object
+    # 로봇팔 객체 등록
     Arm = Arm_Device()
     time.sleep(.1)
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
-    # Repeat swinging the robot arm up and down
+    # 로봇팔 위 아래로 스윙 반복
     # Arm range = 0 ~ 180
     def main():
         # Make all servos in the middle.
@@ -33,13 +33,13 @@ Moving the Robot Arm
 
 
         while True:
-            # Move servos 3 and 4 up and down
+            # 3번과 4번 서보를 위 아래로 움직인다
             Arm.Arm_serial_servo_write(3, 0, 1000)
             time.sleep(.001)
             Arm.Arm_serial_servo_write(4, 180, 1000)
             time.sleep(1)
             
-            # Move the 1st and 5th servos left and right.
+            # 1번과 5번 서보를 좌우로 움직인다.
             Arm.Arm_serial_servo_write(1, 180, 500)
             time.sleep(.001)
             Arm.Arm_serial_servo_write(5, 180, 500)
@@ -49,7 +49,7 @@ Moving the Robot Arm
             Arm.Arm_serial_servo_write(5, 0, 500)
             time.sleep(1.1)
             
-            # Move servo to initial position.
+            # 서보를 초기 위치로 움직인다.
             Arm.Arm_serial_servo_write6(90, 90, 90, 90, 90, 90, 1000)
             time.sleep(1.5)
 
@@ -61,14 +61,14 @@ Moving the Robot Arm
         pass
 
 
--   Arm_serial_servo_write6 (motor 1, motor 2, motor 3, motor 4, motor 5, motor 6, time)
--   Arm_serial_servo_write (motor number, angle, time)
--   Adjust the No. 3 servo motor to 0˚ and the No. 4 servo motor to 180˚
--   Adjust the number 1 and 5 servo motors from 180˚ -> 0˚
+-   Arm_serial_servo_write6(1번 모터, 2번 모터, 3번 모터, 4번 모터, 5번 모터, 6번 모터, 시간)
+-   Arm_serial_servo_write(모터 번호, 각도, 시간)
+-   3번 서보모터를 0˚, 4번 서보모터를 180˚로 조절
+-   1번, 5번 서보모터를 180˚ -> 0˚로 조절
 
 .. code-block:: python
 
-    del Arm  # Remove robot arm object
+    del Arm  # 로봇팔 객체를 제거
 
 
--   Remove object (Robot arm)
+-   로봇팔 객체 제거

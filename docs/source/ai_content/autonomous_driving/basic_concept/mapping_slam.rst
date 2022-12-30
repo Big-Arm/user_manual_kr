@@ -3,17 +3,17 @@ Mapping & SLAM
 ==============
 
 
-What is mapping?
+Mapping이란? 
 ----------------
 
 .. image:: ../images/mapping_slam.webp
 
-| When we travel, we use maps to guide us to our destination.
-| As such, in order to perform autonomous driving, information mapping of the terrain is required.
-| The task of making these features in advance is called **Mapping**.
+| 우리가 여행을 하기 위해서는 해당 여행지의 지도를 가지고 여행을 하게 됩니다.
+| 이렇듯이 기본적으로 자율주행을 하기 위해서는 자율주행을 하려는 지형지물의 정보가 필요합니다. 
+| 사전에 이러한 지형지물을 만들어 놓는 작업을 **Mapping**이라고 합니다. 
 
 
-What is SLAM?
+SLAM 이란? 
 -------------
 
-| **SLAM** refers to an overall algorithm that does mapping.
+| **SLAM**은 매핑을 하는 전반적인 알고리을 일컫습니다.

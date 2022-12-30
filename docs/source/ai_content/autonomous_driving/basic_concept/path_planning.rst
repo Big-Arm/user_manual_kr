@@ -4,18 +4,18 @@ Path Planning
 
 
 
-**What is Path Planning?** 
+**Path Planning이란?** 
 
 
-| Once the terrain is mapped and the robot knows where it is, **a target and an instruction on where to go** is given to the robot. This process is called path planning.
+| 매핑이 되고 위치가 어딘지를 알게 되면 로봇에게 **목표를 던져주면서 어디로 갈지 명령**을 주개 됩니다. 이러한 과정을 Path planning 이라고 합니다. 
 
 
 **Move_base**
 
 
-| In path planning, the components and nodes provided by the ROS package itself are called Move_base. The most important point of Move_base is **to move from the current position to the target position**.
+| Path Planning을 함에 있어 ROS 패키지 자체에서 제공하는 구성요소 및 노드를 Move_base라고 합니다. Move_base의 가장 중요한 핵심은 **현재의 위치에서 목표한 위치로 이동**하는것입니다.
 |
-| Essentially, Move_base is an action type where it receives a topic, performs an action suitable for that topic, and sends the topic again.
+| 기본적으로 Move_base는 토픽을 받고 그 토픽에 맞는 동작을 하고 다시 토픽을 보내기에 액션타입입니다.
 
 .. image:: ../images/path_planning.svg
 

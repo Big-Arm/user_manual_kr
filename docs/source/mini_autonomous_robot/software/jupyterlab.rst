@@ -4,8 +4,8 @@ JupyterLab
 
 .. image:: ../images/jupyter.png
 
-* JupyterLab Features
+* JupyterLab의 특징
 
-  1. Web-based development environment with intuitive usage
-  2. Possible to execute individual code in cell unit
-  3. Easy to integrate image, log, and code documentation through ipynb format
+  1. 직관적인 사용법의 웹 기반 개발 환경
+  2. cell 단위 개별 코드 실행 가능
+  3. ipynb 포맷을 통해 이미지, 로그, 코드의 통합 문서화에 용이

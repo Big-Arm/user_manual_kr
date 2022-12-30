@@ -1,10 +1,10 @@
 ======================
-Read Servo Motor Angle
+서보모터 각도 읽기
 ======================
 
 
 -   05_02_read_servo.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/rob_arm1.png
@@ -16,16 +16,16 @@ Read Servo Motor Angle
     import time
     from Arm_Lib import Arm_Device
 
-    # Register robot arm as an object
+    # 로봇팔 객체 등록
     Arm = Arm_Device()
     time.sleep(.1)
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
-    # Read the angles of all servos.
+    # 모든 서보의 각도를 읽는다.
     def main():
 
         while True:
@@ -44,12 +44,13 @@ Read Servo Motor Angle
         pass
 
 
--   Arm_serial_servo_read (motor number)
--   Read all servo motor angles using while statement
+-   Arm_serial_servo_read(모터 번호)
+-   while문을 이용한 모든 서보모터 각도 읽기
+
 
 .. code-block:: python
 
-    # After individually controlling the movement of the servos, the angle is read.
+    # 서보의 움직임을 개별적으로 제어한 후, 각도를 읽는다.
     id = 3
     angle = 41
 
@@ -62,12 +63,12 @@ Read Servo Motor Angle
     time.sleep(.5)
 
 
--   Arm_serial_servo_write (motor number, angle, time)
--   Read angle after controlling servo motor No. 3
+-   Arm_serial_servo_write(모터 번호, 각도, 시간)
+-   3번 서보모터 제어 후 각도 읽기
 
 .. code-block:: python
 
-    del Arm  # Remove robot arm object
+    del Arm  # 로봇팔 객체를 제거
 
 
--   Remove object (Robot arm)
+-   로봇팔 객체 제거

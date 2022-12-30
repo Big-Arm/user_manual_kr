@@ -1,10 +1,10 @@
 ===============
-Gripper Control
+그리퍼 제어하기
 ===============
 
 
 -   05_08_grip.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/gripper1.png
@@ -16,37 +16,37 @@ Gripper Control
     import time
     from Arm_Lib import Arm_Device
 
-    # register the robot arm as an object
+    # 로봇팔 객체 등록
     Arm = Arm_Device()
     time.sleep(.1)
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
     jonits_home = [90, 90, 90, 90, 90, 90]
 
-    # Open first position
+    # 첫 위치 벌림
     joints_0 = [39, 61, 23, 67, 89, 90]
-    # Close first position
+    # 첫 위치 집기
     joints_1 = [39, 61, 23, 67, 89, 130]
-    # Heighten first position
+    # 올라가있는 집기
     joints_2 = [39,107,37,67,89,130]
-    # Pick the rotated state
+    # 회전 된 상태 집기
     joints_3 = [150,105,35,67,89,130]
-    # lower the rotated state
+    # 회전된 상태 내리기
     joints_4 = [149,63,30,66,89,130]
-    # release the rotated state
+    # 회전된 상태 놓기
     joints_5 = [149,63,30,66,89,90]
 
--   list = [motor 1, motor 2, motor 3, motor 4, motor 5, motor 6]
+-   list = [1번 모터, 2번 모터, 3번 모터, 4번 모터, 5번 모터, 6번 모터]
 
 .. code-block:: python
 
     Arm.Arm_serial_servo_write6_array(jonits_home, 2000)
 
--   Arm_serial_servo_write6_array(list, time)
+-   Arm_serial_servo_write6_array(list, 시간)
 
 .. code-block:: python
 
@@ -75,12 +75,11 @@ Gripper Control
 
 
 
--   Pick and Place through servo motor and gripper control
+-   서보모터와 그리퍼 제어를 통한 Pick and Place
 
 
--   Start
 .. code-block:: python
 
     del Arm   # Release DOFBOT object
 
-Remove robot arm object
+-   로봇팔 객체 제거

@@ -1,5 +1,5 @@
 =========
-Robot Arm
+로봇팔
 =========
 
 Here are the articles in this section:

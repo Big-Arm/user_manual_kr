@@ -1,7 +1,7 @@
 =============
-Block Diagram
+블록도
 =============
 
-This is a simple block diagram of Zetabot.
+제타봇의 간단한 블록선도에 대한 설명입니다.
 
 .. image:: ../images/block.svg

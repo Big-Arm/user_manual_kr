@@ -1,9 +1,9 @@
 ==========================
-Dancing with the Robot Arm
+로봇팔로 춤춰보기
 ==========================
 
 -   05_04_dance.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/dance1.png
@@ -23,12 +23,12 @@ Dancing with the Robot Arm
     time_2 = 1000
     time_sleep = 0.5
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
-    # Dancing Robot arm in repeat
+    # 로봇팔 춤 반복
     def main():
         # 서보를 중심으로 만든다.
         Arm.Arm_serial_servo_write6(90, 90, 90, 90, 90, 90, 500)
@@ -157,9 +157,8 @@ Dancing with the Robot Arm
         pass
 
 
--   Arm_serial_servo_write (motor number, angle, time)
--   Dance motion using servo motor angle control and while statement
-
+-   Arm_serial_servo_write(모터 번호, 각도, 시간)
+-   서보모터 각도 제어와 while문을 이용한 댄스 동작
 
 
 .. code-block:: python
@@ -167,4 +166,4 @@ Dancing with the Robot Arm
     del Arm  # Remove robot arm object
 
 
--   Remove object (Robot arm)
+-   로봇팔 객체 제거

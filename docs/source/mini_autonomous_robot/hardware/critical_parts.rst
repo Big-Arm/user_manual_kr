@@ -1,8 +1,8 @@
 ==============
-Critical Parts
+중요 부품
 ==============
 
-These are the main parts of Zetabot.
+제타봇의 주요 부품들입니다.
 
 .. list-table:: 
    :header-rows: 1
@@ -11,25 +11,25 @@ These are the main parts of Zetabot.
      - Product Description
    * - |part_1| 
      - | Jetson Nano
-       | GPU : 128-core Maxwell
-       | CPU : Quad-core ARM A57
-       | Memory : 4GB 64bit LPDDR 25.6GB/s
-       | Storage : Micro SD
+       | GPU : 128-코어 맥스웰
+       | CPU : 쿼드코어 ARM A57
+       | 메모리 : 4GB 64bit LPDDR 25.6GB/s
+       | 스토리지 : Micro SD
    * - |part_2| 
      - | Raspberry Pi 4B 4GB
        | GPU : Broadcom BCM2711 SoC
        | CPU : ARM-A57 1.5Ghz
-       | Memory : 4GB 64bit LPDDR-2400
-       | Storage : Micro-SD
+       | 메모리 : 4GB 64bit LPDDR-2400
+       | 스토리지 : Micro-SD
    * - |part_3| 
      - | OKDO LIDAR HAT
        | UART interface
        | 4500points/s sample rate
        | 12 meter range
    * - |part_4| 
-     - | Lithium ion battery pack
-       | Charge : 16.8V / 3.5A
-       | Output: 14.6V / 2750mAh
+     - | 리튬이온 배터리팩
+       | 충전 : 16.8V / 3.5A
+       | 출력: 14.6V / 2750mAh
 
 
 .. |part_1| image:: ../images/crit_1.webp 

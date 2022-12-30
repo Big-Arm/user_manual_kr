@@ -1,9 +1,9 @@
 ==============
-Catching Robot
+뽑 기
 ==============
 
 
-Let play catch with our robots
+로봇과 뽑기 게임을 해보자
 ------------------------------
 
 .. image:: ../images/catch_monster_streaming.png
@@ -13,13 +13,13 @@ Let play catch with our robots
 
 
 -   2. 뽑기.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/drawing.webp
 
--   3 minute time limit
--   Use the joystick to pick up objects
+-   제한 시간 3분
+-   조이스틱을 조작해 물건을 집어보자
 
 .. code-block:: python
 

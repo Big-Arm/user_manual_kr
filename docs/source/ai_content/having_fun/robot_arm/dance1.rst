@@ -1,15 +1,15 @@
 ===============
-Robot Dance - 1
+로봇팔 댄스 - 1
 ===============
 
 
 -   05_09_carri_dance.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/arm_dance1.png
 
--   Robot arm dance example with exciting music - 1
+-   흥겨운 음악이 나오는 로봇팔 댄스 예제 - 1
 
 .. code-block:: python
 
@@ -17,72 +17,72 @@ Robot Dance - 1
     import time
     from Arm_Lib import Arm_Device
 
-    # register the robot arm as an object
+    # 로봇팔 객체 등록
     Arm = Arm_Device()
     time.sleep(.1)
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
-    # Register ogg file 
+    # ogg 파일 등록
     mixer.init(48000, 16, 2, 2048)
     my_sound = mixer.Sound('music.ogg')
     my_sound.set_volume(0.01)
 
--   Initialize the sound file
+-   사운드 파일 등록
 
 .. code-block:: python
 
-    # Initialization
+    # 초기화
     Arm.Arm_serial_servo_write6(90, 90, 90, 90, 90, 90, 1000)
 
--   Initialize the robot arm location
+-   로봇팔 위치 초기화
 
 .. code-block:: python
 
     while(1):
         my_sound.play()
-        # 1st move
+        # 1번 동작
         Arm.Arm_serial_servo_write(3, 0, 1500)
         time.sleep(.001)
         Arm.Arm_serial_servo_write(4, 180, 1500)
         time.sleep(.001)
         Arm.Arm_serial_servo_write(1, 0, 1500)
         time.sleep(5.5)
-        # 2nd move
+        # 2번 동작
         Arm.Arm_serial_servo_write(1, 90, 500)
         time.sleep(1.5)
-        # 3rd move
+        # 3번 동작
         Arm.Arm_serial_servo_write(1, 180, 500)
         time.sleep(1.5)
-        # 4th move
+        # 4번 동작
         Arm.Arm_serial_servo_write(3, 90, 500)
         time.sleep(.001)
         Arm.Arm_serial_servo_write(4, 90, 500)
         time.sleep(1.5)
-        # 5th move
+        # 5번 동작
         Arm.Arm_serial_servo_write(3, 0, 500)
         time.sleep(.001)
         Arm.Arm_serial_servo_write(4, 180, 500)
         time.sleep(1.5)
-        # 6th move
+        # 6번 동작
         Arm.Arm_serial_servo_write(1, 90, 1000)
         time.sleep(1.5)
-        # 7th move
+        # 7번 동작
         Arm.Arm_serial_servo_write(1, 0, 1000)
         time.sleep(1.5)
         my_sound.stop()
         break
 
--   Play the music and the dance at the same time
+-   사운드 재생 및 댄스
 
 .. code-block:: python
 
     my_sound.stop()
 
--   Terminate sound
+-   사운드 정지
 
 .. code-block:: python
 
@@ -111,4 +111,4 @@ Robot Dance - 1
     time.sleep(.001)
     Arm.Arm_serial_servo_write(4, 180, 500)
 
--   Movement complete
+-   마무리 동작

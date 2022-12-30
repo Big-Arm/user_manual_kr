@@ -1,15 +1,15 @@
 ===============
-Robot Dance - 1
+로봇팔 댄스 - 2
 ===============
 
 
 -   05_09_music_dance.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/arm_dance2.png
 
--   Robot arm dance example with exciting music - 2
+-   흥겨운 음악이 나오는 로봇팔 댄스 예제 - 2
 
 .. code-block:: python
 
@@ -17,30 +17,30 @@ Robot Dance - 1
     import time
     from Arm_Lib import Arm_Device
 
-    # register the robot arm as an object
+    # 로봇팔 객체 등록
     Arm = Arm_Device()
     time.sleep(.1)
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
-    # Register ogg file 
+    # ogg 파일 등록
     mixer.init(48000, 16, 2, 2048)
     music = mixer.Sound('music.ogg')
     bomb = mixer.Sound('bomb.ogg')
     music.set_volume(0.02)
     bomb.set_volume(0.1)
 
--   Initialize the sound file
+-   사운드 파일 등록
 
 .. code-block:: python
 
-    # Initialization
+    # 초기화
     Arm.Arm_serial_servo_write6(0, 90, 0, 180, 90, 90, 2000)
 
--   Initialize the robot arm location
+-   로봇팔 위치 초기화
 
 .. code-block:: python
 
@@ -101,11 +101,10 @@ Robot Dance - 1
         bomb.play()
         break
 
--   Play the music and the dance at the same time
+-   사운드 재생 및 댄스
 
 .. code-block:: python
 
     my_sound.stop()
 
--   Terminate sound
-
+-   사운드 정지

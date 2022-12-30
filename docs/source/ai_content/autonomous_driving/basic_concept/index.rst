@@ -1,8 +1,8 @@
 ===========================
-Basic Concept & Terminology
+Basic Concept & 용어정리
 ===========================
 
-This is an autonomous driving overview page
+자율주행 개요 페이지입니다
 
 .. image:: ../images/basic_concept.svg
 

@@ -2,32 +2,33 @@
 SBC(Raspberry PI 4B)
 ====================
 
-This is a description of the Jetson Nano, the core of the Zetabot.
+제타봇의 핵심인 라즈베리 파이에 대한 설명입니다.
+
 
 .. image:: ../images/sbc_ras.webp
 
 .. list-table:: 
    :header-rows: 1
    
-   * - Number
-     - Interface
+   * - 번호
+     - 인터페이스
    * - 1
-     - GPIO 40 pin
+     - GPIO 40 핀
    * - 2 
-     - HAT header
+     - HAT 헤더
    * - 3
-     - Ethernet port
+     - 이더넷 포트
    * - 4
-     - USB port
+     - USB 포트
    * - 5
-     - Audio Output Port
+     - 오디오 아웃풋 포트
    * - 6
-     - Camera Connector
+     - 카메라 커넥터
    * - 7
-     - Micro HDMI Port
+     - 마이크로  HDMI 포트
    * - 8
-     - C-type Power Cable
+     - C-type 전원 케이블
    * - 9
-     - Micro-SD Slot
+     - 마이크로 SD 슬롯
    * - 10
-     - Wifi/Bluetooth Module
+     - 와이파이 / 블루투스 모듈

@@ -1,10 +1,10 @@
 ========================
-Controlling Servo Motors
+서보모터 제어하기
 ========================
 
 
 -   05_03_ctrl_all.ipynb
--   | Running the cell code
+-   | 셀 실행시키기
     | `Ctrl + Enter`
 
 .. image:: ../images/motor_cont1.webp
@@ -16,16 +16,16 @@ Controlling Servo Motors
     import time
     from Arm_Lib import Arm_Device
 
-    # register the robot arm as an object
+    # 로봇팔 객체 등록
     Arm = Arm_Device()
     time.sleep(.1)
 
--   Load Arm_Lib module and register the robot arm as an object
+-   Arm_Lib 모듈 불러오기 및 로봇팔 객체 등록
 
 
 .. code-block:: python
 
-    # It gradually changes the angle while controlling 6 servos at the same time.
+    # 6개의 서보를 동시에 제어하면서, 각도를 점점 변화 시킨다.
     def ctrl_all_servo(angle, s_time = 500):
         Arm.Arm_serial_servo_write6(angle, 180-angle, angle, angle, angle, angle, s_time)
         time.sleep(s_time/1000)
@@ -61,14 +61,14 @@ Controlling Servo Motors
         pass
 
 
--   Arm_serial_servo_write (motor number, angle, time)
--   Increase and decrease all servo motor angles by 1˚ using a while statement
-
+-   Arm_serial_servo_write(모터 번호, 각도, 시간)
+-   while문을 이용해 모든 서보모터 각도를 1˚씩 증감
 
 
 .. code-block:: python
 
-    del Arm  # Remove robot arm object
+    del Arm  # 로봇팔 객체 제거
 
+    
 
--   Remove object (Robot arm)
+-   로봇팔 객체 제거

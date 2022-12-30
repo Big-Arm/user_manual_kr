@@ -6,14 +6,14 @@
 .. list-table:: 
    :header-rows: 1
 
-   * - Picture
-     - Description
+   * - 그림
+     - 설명
    * - |part_1|
-     - 1. The process of assembling the motor, the battery and the speaker.
+     - 1. 모터, 배터리, 스피커를 조립합니다.
    * - |part_2|
-     - 2. The process of assembling the power board and Jetson Nano
+     - 2. 파워보드, 젯슨 나노를 조립합니다.
    * - |part_3|
-     - 3. The process of assembling the lidar and the other wirings.
+     - 3. 라이다 및 기타 배선류를 조립합니다.
 
  
 .. |part_1| image:: ../images/ras_1.jpg
