@@ -3,34 +3,35 @@ Cost_scaling_factor
 ===================
 
 
-*These are the result of changing the value of Cost_scaling_factor.*
+*Cost_scaling_factor 값의 변화에 따른 결과입니다.*
 
-The following are the pictures of the change according to the value of the cost scaling factor of the global costmap.
+Global costmap의 cost scaling factor의 값에 따른 변화를 찍은 사진입니다.
 
 .. figure:: ../images/cost1.webp
-   :figwidth: 50 %
+   :figwidth: 70 %
    :align: center
 
-   cost scaling factor 3
+   cost scaling factor의 값이 3일
+
 
 .. figure:: ../images/cost2.png
-   :figwidth: 50 %
+   :figwidth: 70 %
    :align: center
 
-   cost sclaing factor 10
+   cost scaling factor 값이 10때
 
-The following are the pictures of the change according to the value of the cost scaling factor of the local costmap.
+다음은 local costmap의 cost scaling factor의 값에 따른 변화를 찍은 사진입니다. 
 
 .. figure:: ../images/cost3.png
-   :figwidth: 50 %
+   :figwidth: 70 %
    :align: center
 
-   cost scaling factor 3
+   cost scaling factor의 값이 3일 
 
 .. figure:: ../images/cost4.png
-   :figwidth: 50 %
+   :figwidth: 70 %
    :align: center
 
-   cost scaling factor 10
+   cost scaling factor 값이 10때
 
-Conclusion: As the cost scaling factor increases, it can be seen that the range of obstacles recognized by autonomous robots increases.
+결론 : cost scaling factor가 커지면 커질수록 자율주행 로봇이 인식하는 장애물의 범위가 커지는것을 확인할수 있습니다. 
