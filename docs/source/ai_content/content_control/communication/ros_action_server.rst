@@ -7,9 +7,9 @@ ROS Action Server
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/comm14.png
+.. thumbnail:: /_images/content_control/comm14.png
 
-.. image:: ../images/comm15.png
+.. thumbnail:: /_images/content_control/comm15.png
 
 .. code-block:: python
 
@@ -66,8 +66,8 @@ ROS Action Server
 -   피보나치 연산
 -   참조 :
 
-    `http://wiki.ros.org/actionlib_tutorials/Tutorials/Writing%20a%20Simple%20Action%20Server%20using%20the%20Execute%20Callback%20(Python)`__future__
-
+    `<http://wiki.ros.org/actionlib_tutorials/Tutorials/Writing%20a%20Simple%20Action%20Server%20using%20the%20Execute%20Callback%20(Python)>`_
+    
 
 .. code-block:: python
 

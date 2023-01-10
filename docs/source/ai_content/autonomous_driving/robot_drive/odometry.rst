@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/odometry1.png
+.. thumbnail:: /_images/autonomous_driving/odometry1.png
 
 .. code-block:: python
 

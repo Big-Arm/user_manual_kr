@@ -4,4 +4,4 @@
 
 제타봇의 간단한 블록선도에 대한 설명입니다.
 
-.. image:: ../images/block.svg
+.. thumbnail:: /_images/ai_autonomous_robot/block.svg

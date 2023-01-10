@@ -6,7 +6,7 @@ ROS Command Example
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/comm3.png
+.. thumbnail:: /_images/content_control/comm3.png
 
 .. code-block:: bash
 
@@ -14,7 +14,7 @@ ROS Command Example
 
 -   현재 실행되고 있는 ROS Node 목록을 출력
 
-.. image:: ../images/comm4.webp
+.. thumbnail:: /_images/content_control/comm4.webp
 
 .. code-block:: bash
 
@@ -22,7 +22,7 @@ ROS Command Example
 
 -   joy_node Node의 정보를 출력
 
-.. image:: ../images/comm5.png
+.. thumbnail:: /_images/content_control/comm5.png
 
 .. code-block:: bash
 
@@ -30,7 +30,7 @@ ROS Command Example
 
 -   현재 실행되고 있는 ROS Topic 목록을 출력
 
-.. image:: ../images/comm6.png
+.. thumbnail:: /_images/content_control/comm6.png
 
 .. code-block:: bash
 
@@ -38,7 +38,7 @@ ROS Command Example
 
 -   imu Topic의 정보를 출력
 
-.. image:: ../images/comm7.png
+.. thumbnail:: /_images/content_control/comm7.png
 
 .. code-block:: bash
 
@@ -47,7 +47,7 @@ ROS Command Example
 -   imu Topic의 Message를 출력
 
 
-.. image:: ../images/comm8.webp
+.. thumbnail:: /_images/content_control/comm8.webp
 
 .. code-block:: bash
 
@@ -55,7 +55,7 @@ ROS Command Example
 
 -   pm2를 이용한 프로세스 목록 확인
 
-.. image:: ../images/comm9.png
+.. thumbnail:: /_images/content_control/comm9.png
 
 .. code-block:: bash
 

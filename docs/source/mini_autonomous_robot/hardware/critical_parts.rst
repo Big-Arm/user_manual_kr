@@ -32,7 +32,7 @@
        | 출력: 14.6V / 2750mAh
 
 
-.. |part_1| image:: ../images/crit_1.webp 
-.. |part_2| image:: ../images/crit_2.webp 
-.. |part_3| image:: ../images/crit_3.webp 
-.. |part_4| image:: ../images/crit_4.jpg
+.. |part_1| image:: /_images/ai_autonomous_robot/crit_1.webp 
+.. |part_2| image:: /_images/ai_autonomous_robot/crit_2.webp 
+.. |part_3| image:: /_images/ai_autonomous_robot/crit_3.webp 
+.. |part_4| image:: /_images/ai_autonomous_robot/crit_4.jpg

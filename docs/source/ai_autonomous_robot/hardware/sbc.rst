@@ -4,7 +4,7 @@ SBC(Single Board Computer)
 
 제타봇의 핵심인 젯슨 나노에 대한 설명입니다.
 
-.. image:: ../images/sbc_1.jpg
+.. thumbnail:: /_images/ai_autonomous_robot/sbc_1.jpg
 
 .. list-table:: 
    :header-rows: 1

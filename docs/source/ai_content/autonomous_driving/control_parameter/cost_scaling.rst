@@ -7,14 +7,14 @@ Cost_scaling_factor
 
 Global costmap의 cost scaling factor의 값에 따른 변화를 찍은 사진입니다.
 
-.. figure:: ../images/cost1.webp
+.. figure:: /_images/autonomous_driving/cost1.webp
    :figwidth: 70 %
    :align: center
 
    cost scaling factor의 값이 3일
 
 
-.. figure:: ../images/cost2.png
+.. figure:: /_images/autonomous_driving/cost2.png
    :figwidth: 70 %
    :align: center
 
@@ -22,13 +22,13 @@ Global costmap의 cost scaling factor의 값에 따른 변화를 찍은 사진�
 
 다음은 local costmap의 cost scaling factor의 값에 따른 변화를 찍은 사진입니다. 
 
-.. figure:: ../images/cost3.png
+.. figure:: /_images/autonomous_driving/cost3.png
    :figwidth: 70 %
    :align: center
 
    cost scaling factor의 값이 3일 
 
-.. figure:: ../images/cost4.png
+.. figure:: /_images/autonomous_driving/cost4.png
    :figwidth: 70 %
    :align: center
 

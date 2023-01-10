@@ -7,13 +7,13 @@ Inflation Layer
 Global costmap의 inflation_radius의 값에 따른 변화를 찍은 사진입니다.
 
 
-.. figure:: ../images/inflation_1.webp
+.. figure:: /_images/autonomous_driving/inflation_1.webp
    :figwidth: 70 %
    :align: center
 
    inflation_radius가 0.8일
 
-.. figure:: ../images/inflation_2.webp
+.. figure:: /_images/autonomous_driving/inflation_2.webp
    :figwidth: 70 %
    :align: center
 
@@ -21,13 +21,13 @@ Global costmap의 inflation_radius의 값에 따른 변화를 찍은 사진입�
 
 다음은 local costmap의 inflation_radius의 값에 따른 변화를 찍은 사진입니다. 
 
-.. figure:: ../images/inflation_3.webp
+.. figure:: /_images/autonomous_driving/inflation_3.webp
    :figwidth: 50 %
    :align: center
 
    inflation_radius가 0.8일
 
-.. figure:: ../images/inflation_4.webp
+.. figure:: /_images/autonomous_driving/inflation_4.webp
    :figwidth: 50 %
    :align: center
 

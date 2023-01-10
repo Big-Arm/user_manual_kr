@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/track1.png
+.. thumbnail:: /_images/having_fun/track1.png
 
 -   로봇팔 카메라를 이용한 파란색, 초록색, 노란색, 빨간색 객체 인식 밎 추적
 -   Import head file
@@ -141,6 +141,8 @@
             except KeyboardInterrupt:capture.release()
 
 -   Start
+
+
 .. code-block:: python
 
     display(controls_box,output)

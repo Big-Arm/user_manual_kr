@@ -6,7 +6,7 @@
 로봇과 뽑기 게임을 해보자
 ------------------------------
 
-.. image:: ../images/catch_monster_streaming.png
+.. thumbnail:: /_images/having_fun/catch_monster_streaming.png
 
 
 
@@ -16,7 +16,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/drawing.webp
+.. thumbnail:: /_images/having_fun/drawing.webp
 
 -   제한 시간 3분
 -   조이스틱을 조작해 물건을 집어보자

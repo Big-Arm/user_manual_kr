@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/obj_seg1.png
+.. thumbnail:: /_images/ai_training/obj_seg1.png
 
 
 .. code-block:: python
@@ -26,7 +26,7 @@
 
 -   라즈베리 파이 카메라로 객체 분할하기
 
-.. image:: ../../images/obk_seg2.png
+.. thumbnail:: /_images/ai_training/obk_seg2.png
 
 
 -   Jetson Nano에서 실행된 모습

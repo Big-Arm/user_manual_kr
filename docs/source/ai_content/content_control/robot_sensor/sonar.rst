@@ -6,8 +6,8 @@ Sonar
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/sensor2.webp
-.. image:: ../images/sensor3.webp
+.. thumbnail:: /_images/content_control/sensor2.webp
+.. thumbnail:: /_images/content_control/sensor3.webp
 
 
 .. code-block:: python

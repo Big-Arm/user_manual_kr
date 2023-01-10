@@ -5,7 +5,7 @@ SBC(Raspberry PI 4B)
 제타봇의 핵심인 라즈베리 파이에 대한 설명입니다.
 
 
-.. image:: ../images/sbc_ras.webp
+.. thumbnail:: /_images/ai_autonomous_robot/sbc_ras.webp
 
 .. list-table:: 
    :header-rows: 1

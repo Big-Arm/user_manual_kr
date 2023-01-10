@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/alexnet1.webp
+.. thumbnail:: /_images/ai_training/alexnet1.webp
 
 
 .. code-block:: python
@@ -25,7 +25,7 @@
 
 -   원본 이미지 확인하기
 
-.. image:: ../../images/googlenet2.png
+.. thumbnail:: /_images/ai_training/googlenet2.png
 
 
 -   Jetson Nano에서 실행된 모습
@@ -57,7 +57,7 @@
 -   검출 이미지 확인하기
 
 
-.. image:: ../../images/alexnet2.png
+.. thumbnail:: /_images/ai_training/alexnet2.png
 
 -   Jetson Nano에서 실행된 모습
 

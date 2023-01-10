@@ -1,6 +1,6 @@
-====
+===========
 개 요
-====
+===========
 
 
 .. list-table:: 
@@ -19,11 +19,11 @@
        | (Jetson Nano)
 
 
-.. |part_1| image:: ../../images/mini_white.png 
-.. |part_2| image:: ../../images/mini_black.png 
-.. |part_3| image:: ../../images/mini_red.JPG 
+.. |part_1| image:: /_images/index/mini_white.jpg 
+.. |part_2| image:: /_images/index/mini_black.jpg 
+.. |part_3| image:: /_images/index/mini_red.JPG 
               :width: 80 %
-.. |part_4| image:: ../../images/mini_yellow.JPG
+.. |part_4| image:: /_images/index/mini_yellow.JPG
               :width: 80 %
 
 

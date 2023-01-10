@@ -1,13 +1,13 @@
-=====
+============
 스피커
-=====
+============
 
 
 -   01_sound.ipynb
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/mul1.png
+.. thumbnail:: /_images/content_control/mul1.png
 
 
 .. code-block:: python

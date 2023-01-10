@@ -16,7 +16,7 @@
      - 3. 라이다 및 기타 배선류를 조립합니다.
 
  
-.. |part_1| image:: ../images/ras_1.jpg
-.. |part_2| image:: ../images/ras_2.jpg
-.. |part_3| image:: ../images/ras_3.jpg
+.. |part_1| image:: /_images/ai_autonomous_robot/ras_1.jpg
+.. |part_2| image:: /_images/ai_autonomous_robot/ras_2.jpg
+.. |part_3| image:: /_images/ai_autonomous_robot/ras_3.jpg
 

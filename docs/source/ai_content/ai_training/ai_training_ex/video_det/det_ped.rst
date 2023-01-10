@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/det_ped1.webp
+.. thumbnail:: /_images/ai_training/det_ped1.webp
 
 
 .. code-block:: python
@@ -25,7 +25,7 @@
 
 -   원본 동영상 확인하기
 
-.. image:: ../../images/det_ped2.webp
+.. thumbnail:: /_images/ai_training/det_ped2.webp
 
 
 -   Jetson Nano에서 실행된 모습
@@ -57,7 +57,7 @@
 
 -   검출 동영상 확인하기
 
-.. image:: ../../images/det_ped3.webp
+.. thumbnail:: /_images/ai_training/det_ped3.webp
 
 -   Jetson Nano에서 실행된 모습
 

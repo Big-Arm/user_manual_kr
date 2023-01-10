@@ -1,12 +1,12 @@
-==============
+==================
 강아지 검출하기
-==============
+==================
 
 -   2-3. 영상에서 강아지 객체 검출.ipynb
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/detdog1.webp
+.. thumbnail:: /_images/ai_training/detdog1.webp
 
 
 .. code-block:: python
@@ -25,7 +25,7 @@
 
 -   원본 동영상 확인하기
 
-.. image:: ../../images/detdog2.webp
+.. thumbnail:: /_images/ai_training/detdog2.webp
 
 
 -   Jetson Nano에서 실행된 모습
@@ -57,7 +57,7 @@
 
 -   검출 동영상 확인하기
 
-.. image:: ../../images/detdog3.webp
+.. thumbnail:: /_images/ai_training/detdog3.webp
 
 -   Jetson Nano에서 실행된 모습
 

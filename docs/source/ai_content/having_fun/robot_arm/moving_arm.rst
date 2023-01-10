@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/arm1.webp
+.. thumbnail:: /_images/having_fun/arm1.webp
 
 .. code-block:: python
 

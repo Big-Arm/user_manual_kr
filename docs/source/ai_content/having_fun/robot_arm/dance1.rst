@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/arm_dance1.png
+.. thumbnail:: /_images/having_fun/arm_dance1.png
 
 -   흥겨운 음악이 나오는 로봇팔 댄스 예제 - 1
 

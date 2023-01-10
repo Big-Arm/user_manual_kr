@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/conv2.png
+.. thumbnail:: /_images/content_control/conv2.png
 
 
 .. code-block:: python
@@ -61,7 +61,7 @@
 -   3초간 시간 지연
 -   cur_num - pre_num 이 1이 아닐 경우,
 
-    -   Message data, pre_num + 1, cur_num -1_,_ cur_num - pre_num -1 순서대로 출력
+    -   Message data, pre_num + 1, cur_num -1, cur_num - pre_num -1 순서대로 출력
     -   Data : (현재 data) Missing: (누락된 data 최솟값 ~ 누락된 data 최댓값) (cnt: (누락된 data 개수))
 
 -   이외의 경우

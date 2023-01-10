@@ -6,7 +6,7 @@ Global / Local Coastmap
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/global.png
+.. thumbnail:: /_images/autonomous_driving/global.png
 
 .. code-block:: python
 

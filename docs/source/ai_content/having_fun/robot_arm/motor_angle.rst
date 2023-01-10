@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/rob_arm1.png
+.. thumbnail:: /_images/having_fun/rob_arm1.png
 
 .. code-block:: python
 

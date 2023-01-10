@@ -7,12 +7,12 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/training1.png
+.. thumbnail:: /_images/ai_training/training1.png
 
 -   사용 언어 : Python
 -   Raspberry Pi 카메라를 이용한 실시간 객체 검출 코드
 
-.. image:: ../../images/training2.png
+.. thumbnail:: /_images/ai_training/training2.png
 
 
 .. code-block:: python
@@ -49,7 +49,7 @@
 
 -   10줄 예제 실행해보기
 
-.. image:: ../../images/training3.png
+.. thumbnail:: /_images/ai_training/training3.png
 
 -   Jetson Nano에서 실행된 모습
 

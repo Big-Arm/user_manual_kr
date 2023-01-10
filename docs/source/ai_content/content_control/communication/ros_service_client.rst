@@ -7,9 +7,9 @@ ROS Service Client
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/comm12.png
+.. thumbnail:: /_images/content_control/comm12.png
 
-.. image:: ../images/comm13.png
+.. thumbnail:: /_images/content_control/comm13.png
 
 .. code-block:: python
 

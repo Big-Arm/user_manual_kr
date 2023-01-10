@@ -25,7 +25,7 @@ Control Parameter
 
     $ rosrun rqt_reconfigure rqt_reconfigure
 
-.. image:: ../images/gui.png
+.. thumbnail:: /_images/autonomous_driving/gui.png
 
 
 해당 화면이 실행된다면 각각의 파라미터에 맞는 값들을 조정해가면서 실시간으로 네비게이션의 성능을 판단하여 봅시다.

@@ -17,7 +17,7 @@ Path Planning
 |
 | 기본적으로 Move_base는 토픽을 받고 그 토픽에 맞는 동작을 하고 다시 토픽을 보내기에 액션타입입니다.
 
-.. image:: ../images/path_planning.svg
+.. thumbnail:: /_images/autonomous_driving/path_planning.svg
 
 
 .. toctree::

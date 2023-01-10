@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/hand1.png
+.. thumbnail:: /_images/ai_training/hand1.png
 
 
 .. code-block:: python
@@ -26,7 +26,7 @@
 
 -   라즈베리 파이 카메라로 손 포즈 추정하기
 
-.. image:: ../../images/hand2.png
+.. thumbnail:: /_images/ai_training/hand2.png
 
 
 -   Jetson Nano에서 실행된 모습

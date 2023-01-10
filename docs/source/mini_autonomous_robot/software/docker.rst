@@ -2,7 +2,7 @@
 Docker
 ================
 
-.. image:: ../images/docker.webp
+.. thumbnail:: /_images/ai_autonomous_robot/docker.webp
 
 - Docker의 특징
 

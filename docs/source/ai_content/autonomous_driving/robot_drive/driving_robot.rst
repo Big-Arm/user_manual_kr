@@ -7,9 +7,9 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/robot_drive1.png
+.. thumbnail:: /_images/autonomous_driving/robot_drive1.png
 
-.. image:: ../images/robot_drive2.png
+.. thumbnail:: /_images/autonomous_driving/robot_drive2.png
 
 .. code-block:: python
 

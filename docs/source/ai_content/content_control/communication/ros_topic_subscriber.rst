@@ -6,7 +6,7 @@ ROS Topic Subscriber
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/comm2.webp
+.. thumbnail:: /_images/content_control/comm2.webp
 
 .. code-block:: python
 

@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/motor_cont1.webp
+.. thumbnail:: /_images/having_fun/motor_cont1.webp
 
 .. code-block:: python
 

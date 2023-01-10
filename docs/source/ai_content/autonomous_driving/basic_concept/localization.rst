@@ -5,7 +5,7 @@ Localization & AMCL
 Localization이란? 
 ---------------------
 
-.. image:: ../images/localization.webp
+.. thumbnail:: /_images/autonomous_driving/localization.webp
 
 
 
@@ -17,7 +17,8 @@ Localization이란?
 |
 | Ex)
 |
-.. image:: ../images/localization_ex.png
+
+.. thumbnail:: /_images/autonomous_driving/localization_ex.png
 
 제타봇의 Rviz를 띄우고 2D Pose Estimate를 누르고 방향을 조절하면 로봇의 레이저 값과 맵의 공간이 어느정도 일치하는게 보일것입니다.
 

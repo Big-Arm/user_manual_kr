@@ -2,7 +2,7 @@
 JupyterLab
 ==========
 
-.. image:: ../images/jupyter.png
+.. thumbnail:: /_images/ai_autonomous_robot/jupyter.jpg
 
 * JupyterLab의 특징
 

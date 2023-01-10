@@ -8,5 +8,5 @@ Here are the articles in this section:
 
   ros_jets
   ros_rasp
-  nvidia_inference
+  docker
   jupyterlab

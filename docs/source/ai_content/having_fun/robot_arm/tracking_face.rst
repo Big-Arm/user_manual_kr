@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/face1.png
+.. thumbnail:: /_images/having_fun/face1.png
 
 -   로봇팔 카메라를 이용한 얼굴 인식 밎 추적
 -   Import head file
@@ -88,6 +88,8 @@
 
 
 -   Start
+
+
 .. code-block:: python
 
     display(controls_box,output)

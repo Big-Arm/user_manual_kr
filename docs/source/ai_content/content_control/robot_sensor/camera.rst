@@ -6,7 +6,7 @@ Camera
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/sensor4.png
+.. thumbnail:: /_images/content_control/sensor4.png
 
 
 .. code-block:: python

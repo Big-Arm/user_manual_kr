@@ -8,30 +8,33 @@ ROS 기반의 교육용 자율 주행 AI로봇 Zetabot 메뉴얼입니다.
 AI Autonomous Robot 
 -------------------
 
-.. figure:: images/white_zeta.png
+.. figure:: /_images/index/white_zeta.jpg
    :figwidth: 50 %
    :align: center
 
    White Zetabot
 
-.. figure:: images/black_zeta.png
+.. figure:: /_images/index/black_zeta.jpg
    :figwidth: 50 %
    :align: center
 
    Black Zetabot
 
 
-.. figure:: images/dino_zeta.png
+.. figure:: /_images/index/dino_zeta.jpg
    :figwidth: 80 %
    :align: center
 
    White Zetabot with a Dinosaur Attachment
 
-.. figure:: images/arm_zeta.jpg
-   :figwidth: 90 %
+.. figure:: /_images/index/arm_zeta.jpg
+   :figwidth: 100 %
+   :width: 80 %
    :align: center
 
    Black Zetabot with an Arm Attachemnt
+
+
 
 
 
@@ -40,49 +43,47 @@ Mini Autonomous Robot
 ---------------------
 
 
-.. figure:: images/mini_white.png
-   :figwidth: 45 %
+.. figure:: /_images/index/mini_white.jpg
+   :figwidth: 70 %
    :align: center
    
    White Mini-Zetabot
 
-.. figure:: images/mini_black.png
-   :figwidth: 45 %
+.. figure:: /_images/index/mini_black.jpg
+   :figwidth: 70 %
    :align: center
    
    Black Mini-Zetabot
 
 
-.. figure:: images/mini_yellow.JPG
-   :figwidth: 45 %
+.. figure:: /_images/index/mini_yellow.JPG
+   :figwidth: 70 %
    :width: 60 %
    :align: center
 
    Yellow Mini-Zetabot
 
 
-.. figure:: images/mini_red.JPG
-   :figwidth: 45 %
+.. figure:: /_images/index/mini_red.JPG
+   :figwidth: 70 %
    :width: 60 %
    :align: center
 
    Red Mini-Zetabot
 
 
-.. figure:: images/bumper1.png
-   :figwidth: 45 %
+.. figure:: /_images/index/bumper1.jpg
+   :figwidth: 30 %
    :align: center
 
    Zetabot light (Red)
 
 
-.. figure:: images/bumper2.png
-   :figwidth: 45 %
+.. figure:: /_images/index/bumper2.jpg
+   :figwidth: 35 %
    :align: center
 
    Zetabot light (blue)
-
-
 
 
 
@@ -118,8 +119,6 @@ Mini Autonomous Robot
    ai_content/content_control/multi_media/index
    ai_content/content_control/convergence/index
 
-
-.. role:: orange
 
 
 

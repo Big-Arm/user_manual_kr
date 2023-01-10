@@ -7,9 +7,9 @@ ROS Service Server
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/comm10.webp
+.. thumbnail:: /_images/content_control/comm10.webp
 
-.. image:: ../images/comm11.webp
+.. thumbnail:: /_images/content_control/comm11.webp
 
 .. code-block:: python
 

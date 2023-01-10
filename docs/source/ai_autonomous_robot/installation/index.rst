@@ -1,6 +1,6 @@
-====
-설 치
-====
+============
+Installation
+============
 
 
 Here are the articles in this section:

@@ -6,13 +6,13 @@
 로봇과 함께 춤을 추자
 --------------------------
 
-.. image:: ../images/dancegit.png
+.. thumbnail:: /_images/having_fun/dancegit.png
 
 -   1. 로봇팔.댄스.ipynb
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/robot_arm_dance.webp
+.. thumbnail:: /_images/having_fun/robot_arm_dance.webp
 
 -   무작위로 움직이는 로봇팔 댄스
 

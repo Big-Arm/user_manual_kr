@@ -2,7 +2,7 @@
 ROS 1 (Jetson Nano)
 ======================
 
-.. image:: ../images/ros.png
+.. thumbnail:: /_images/ai_autonomous_robot/ros.jpg
    
 * ROS의 특징
 

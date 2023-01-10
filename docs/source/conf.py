@@ -6,17 +6,19 @@ project = 'Zetabot'
 # copyright = '2021, Graziella'
 author = 'Zetabank'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.1.2'
+version = '0.1.2'
 
 # -- General configuration
 
 extensions = [
+    'sphinx_rtd_theme',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.images',
 ]
 
 intersphinx_mapping = {
@@ -27,18 +29,26 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+
+images_config = {
+    'download': True,
+}
+
+
 # -- Options for HTML output
 
+html_logo = "_static/logo.png"
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'analytics_id': 'UA-17821189-2',
     'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': -1,
+    'logo_only': True,
 }
 
 def setup(app):
-    app.add_stylesheet("css/toc_custom.css")
+    app.add_css_file("css/toc_custom.css")
 # -- Referencing
 numfig = True
 

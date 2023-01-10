@@ -2,7 +2,7 @@
 NVIDIA Inference
 ================
 
-.. image:: ../images/nvidia_interface.png
+.. thumbnail:: /_images/ai_autonomous_robot/nvidia_interface.jpg
 
 - NVIDIA Inference의 특징
 

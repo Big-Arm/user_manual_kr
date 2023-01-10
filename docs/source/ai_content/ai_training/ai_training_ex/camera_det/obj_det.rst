@@ -7,7 +7,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/det_obj1.png
+.. thumbnail:: /_images/ai_training/det_obj1.png
 
 
 .. code-block:: python
@@ -26,7 +26,7 @@
 
 -   라즈베리 파이 카메라로 객체 인식하기
 
-.. image:: ../../images/det_obj2.png
+.. thumbnail:: /_images/ai_training/det_obj2.png
 
 
 -   Jetson Nano에서 실행된 모습

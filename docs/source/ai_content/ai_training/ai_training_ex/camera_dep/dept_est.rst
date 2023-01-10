@@ -1,13 +1,13 @@
-==================
+======================================
 깊이 (Depth) 추정하기
-==================
+======================================
 
 
 -   5. 카메라로 깊이 추정.ipynb
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/dept_est1.png
+.. thumbnail:: /_images/ai_training/dept_est1.png
 
 
 .. code-block:: python
@@ -26,7 +26,7 @@
 
 -   라즈베리 파이 카메라로 depth 추정하기
 
-.. image:: ../../images/dept_est2.png
+.. thumbnail:: /_images/ai_training/dept_est2.png
 
 
 -   Jetson Nano에서 실행된 모습

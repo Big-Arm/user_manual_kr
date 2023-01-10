@@ -6,7 +6,7 @@ LIDAR
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/sensor5.png
+.. thumbnail:: /_images/content_control/sensor5.png
 
 
 .. code-block:: python

@@ -7,7 +7,7 @@ ROS Action Client
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/comm16.png
+.. thumbnail:: /_images/content_control/comm16.png
 
 
 .. code-block:: python

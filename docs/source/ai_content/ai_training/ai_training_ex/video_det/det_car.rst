@@ -1,12 +1,12 @@
-==============
+==================
 자동차 검출하기
-==============
+==================
 
 -   2-1. 영상에서 자동차 객체 검출.ipynb
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/detcar1.png
+.. thumbnail:: /_images/ai_training/detcar1.png
 
 
 .. code-block:: python
@@ -25,7 +25,7 @@
 
 -   원본 동영상 확인하기
 
-.. image:: ../../images/detcar2.png
+.. thumbnail:: /_images/ai_training/detcar2.png
 
 
 -   Jetson Nano에서 실행된 모습
@@ -56,7 +56,7 @@
 
 -   검출 동영상 확인하기
 
-.. image:: ../../images/detcar3.png
+.. thumbnail:: /_images/ai_training/detcar3.png
 
 -   Jetson Nano에서 실행된 모습
 

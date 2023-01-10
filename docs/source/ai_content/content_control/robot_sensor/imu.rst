@@ -6,7 +6,7 @@ IMU
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/sensor1.webp
+.. thumbnail:: /_images/content_control/sensor1.webp
 
 
 .. code-block:: python

@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../../images/det_face1.png
+.. thumbnail:: /_images/ai_training/det_face1.png
 
 
 .. code-block:: python
@@ -25,7 +25,7 @@
 
 -   라즈베리 파이 카메라로 얼굴 인식하기
 
-.. image:: ../../images/det_face3.png
+.. thumbnail:: /_images/ai_training/det_face3.png
 
 
 -   Jetson Nano에서 실행된 모습

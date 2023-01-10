@@ -1,10 +1,10 @@
-==============
+=================
 옵션 : 6축 로봇팔
-==============
+=================
 
 6축 DOF봇에 관한 설명입니다.
 
-.. image:: ../images/six_axis.jpg
+.. thumbnail:: /_images/ai_autonomous_robot/six_axis.jpg
 
 .. list-table:: 
    :header-rows: 1

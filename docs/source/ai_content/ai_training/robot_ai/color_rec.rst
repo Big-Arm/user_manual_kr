@@ -6,7 +6,7 @@
 -   | 셀 실행시키기
     | `Ctrl + Enter`
 
-.. image:: ../images/rob_ai_2.png
+.. thumbnail:: /_images/ai_training/rob_ai_2.png
 
 
 .. code-block:: python
